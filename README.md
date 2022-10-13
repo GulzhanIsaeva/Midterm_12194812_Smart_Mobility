@@ -5,7 +5,7 @@
 
 2. Student ID: 12194812
 
-3. Course: Smart Mobility Engineering LAb
+3. Course: Smart Mobility Engineering Lab
 ```
 
 
