@@ -129,8 +129,4 @@ You should see the Fibonacci action definition printed to the screen.
 In this tutorial, I learned the structure of an action definition and also how to correctly build a new action interface using CMakeLists.txt and package.xml, and how to verify a successful build.
 
 
-##
-##
 
-# Writing an action server and client
-# Composing multiple nodes in a single process
