@@ -172,12 +172,76 @@ In the first shell, verify that the repeated messages from talker and listener h
 
 The component manager name and namespace can be remapped via standard command line arguments:
 
+```
 ros2 run rclcpp_components component_container --ros-args -r __node:=MyContainer -r __ns:=/ns
+```
+
 In a second shell, components can be loaded by using the updated container name:
 
+```
 ros2 component load /ns/MyContainer composition composition::Listener
+```
 
+## Remap component names and namespaces
 
+Component names and namespaces may be adjusted via arguments to the load command.
+
+In the first shell, start the component container:
+
+```
+ros2 run rclcpp_components component_container
+```
+
+Some examples of how to remap names and namespaces.
+
+Remap node name:
+
+```
+ros2 component load /ComponentManager composition composition::Talker --node-name talker2
+```
+
+Remap namespace:
+
+```
+ros2 component load /ComponentManager composition composition::Talker --node-namespace /ns
+```
+
+Remap both:
+
+```
+ros2 component load /ComponentManager composition composition::Talker --node-name talker3 --node-namespace /ns2
+```
+
+Now use ros2 command line utility:
+
+```
+ros2 component list
+```
+
+In the console you should see corresponding entries:
+
+```
+/ComponentManager
+   1  /talker2
+   2  /ns/talker
+   3  /ns2/talker
+```
+
+## Passing parameter values into components
+
+The ros2 component load command-line supports passing arbitrary parameters to the node as it is constructed. This functionality can be used as follows:
+
+```
+ros2 component load /ComponentManager image_tools image_tools::Cam2Image -p burger_mode:=true
+```
+
+## Passing additional arguments into components
+
+The ros2 component load command-line supports passing particular options to the component manager for use when constructing the node. As of now, the only command-line option that is supported is to instantiate a node using intra-process communication. This functionality can be used as follows:
+
+```
+ros2 component load /ComponentManager composition composition::Talker -e use_intra_process_comms:=true
+```
 
 
 
