@@ -1,9 +1,5 @@
-# Contents:
+# Writing an action server and client
 
-- Writing an action server and client
-- Composing multiple nodes in a single process
-
-##
 
 
 # Writing an action server and client
@@ -362,9 +358,3 @@ Now if we run our action client, you should see feedback being printed to the sc
 
 In this tutorial, we put together a Python action server and action client line by line, and configured them to exchange goals, feedback, and results.
 
-##
-##
-
-
-
-# Composing multiple nodes in a single process
