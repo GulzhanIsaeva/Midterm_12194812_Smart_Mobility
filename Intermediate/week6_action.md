@@ -77,7 +77,52 @@ int32[] partial_sequence # feedback
 ```
 
 ## Building an action
+
+In order to use the new Fibonacci action type in our code, we should add lines of code in CMakeLists.txt before the ament_package() line, in the action_tutorials_interfaces:
+
+```
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/Fibonacci.action"
+)
+```
+
+We should also add the required dependencies to our package.xml:
+
+```
+<buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+<depend>action_msgs</depend>
+
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+We should now be able to build the package containing the Fibonacci action definition:
+
+```
+# Change to the root of the workspace
+cd ~/ros2_ws
+# Build
+colcon build
+```
+
+We can check that our action built successfully with the command line tool:
+
+```
+# Source our workspace
+# On Windows: call install/setup.bat
+. install/setup.bash
+# Check that our action definition exists
+ros2 interface show action_tutorials_interfaces/action/Fibonacci
+```
+
+You should see the Fibonacci action definition printed to the screen.
+
 ## Summary
+
+In this tutorial, I learned the structure of an action definition and also how to correctly build a new action interface using CMakeLists.txt and package.xml, and how to verify a successful build.
+
 
 ##
 ##
