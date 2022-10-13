@@ -78,7 +78,8 @@ You will see both turtles following the same path.
 
 
 
-## 4. Introspect the system with rqt_graph
+## 4. Introspect the system with rqt_graph
+
 While the system is still running, open a new terminal and run rqt_graph to get a better idea of the relationship between the nodes in your launch file.
 
 Run the command:
@@ -93,17 +94,26 @@ rqt_graph
 A hidden node (the ros2 topic pub command you ran) is publishing data to the /turtlesim1/turtle1/cmd_vel topic on the left, which the /turtlesim1/sim node is subscribed to. The rest of the graph shows what was described earlier: mimic is subscribed to /turtlesim1/sim’s pose topic, and publishes to /turtlesim2/sim’s velocity command topic.
 
 ## 5. Summary
+
 Launch files simplify running complex systems with many nodes and specific configuration details. You can create launch files using Python, XML, or YAML, and run them using the ros2 launch command.
 
 
 
 
-#
+
+
+
+...
+
+
+
+##
 
 
 
 
 # Integrating Launch files into ROS2 packages
+
 
 ## 1. Create a package
 
