@@ -1,6 +1,3 @@
-# Writing an action server and client
-
-
 
 # Writing an action server and client
 
