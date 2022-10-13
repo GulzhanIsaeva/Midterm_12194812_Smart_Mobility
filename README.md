@@ -1,4 +1,4 @@
-# Midterm_12194812_Smart_Mobility
+# Midterm Assignment
 
 ```
 1. Student Name: Gulzhan Isaeva
