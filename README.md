@@ -26,4 +26,7 @@ The Robot Operating System (ROS) is a set of software libraries and tools for bu
 -to create custom srv and msg files
 -to write an action server and client
 -to create launch files
+-integrating launch files into ROS2 packages
+-using substitutions
+-building visual robot from scratch (URDF)
 ```
