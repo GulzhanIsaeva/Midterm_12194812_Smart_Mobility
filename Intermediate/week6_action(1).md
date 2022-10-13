@@ -81,6 +81,9 @@ int32[] sequence # final result
 int32[] partial_sequence # feedback
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/195639003-78020108-3ca4-4318-9580-88fc578f45d9.png)
+
+
 ## Building an action
 
 In order to use the new Fibonacci action type in our code, we should add lines of code in CMakeLists.txt before the ament_package() line, in the action_tutorials_interfaces:
@@ -93,6 +96,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/195639472-241d38ad-6c4e-4a1c-9e35-0e975d769147.png)
+
+
 We should also add the required dependencies to our package.xml:
 
 ```
@@ -102,6 +108,9 @@ We should also add the required dependencies to our package.xml:
 
 <member_of_group>rosidl_interface_packages</member_of_group>
 ```
+
+![image](https://user-images.githubusercontent.com/90166739/195639892-1dd268a8-8777-4ccb-b82c-5311cf056d3a.png)
+
 
 We should now be able to build the package containing the Fibonacci action definition:
 
