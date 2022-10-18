@@ -206,11 +206,17 @@ The component manager name and namespace can be remapped via standard command li
 ros2 run rclcpp_components component_container --ros-args -r __node:=MyContainer -r __ns:=/ns
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196469997-dc9abdbf-f48f-4d3a-86a8-a87459253b36.png)
+
+
 In a second shell, components can be loaded by using the updated container name:
 
 ```
 ros2 component load /ns/MyContainer composition composition::Listener
 ```
+
+![image](https://user-images.githubusercontent.com/90166739/196470154-56bc1274-1d8a-41e2-9e74-cbcd6a7058e6.png)
+
 
 ## Remap component names and namespaces
 
