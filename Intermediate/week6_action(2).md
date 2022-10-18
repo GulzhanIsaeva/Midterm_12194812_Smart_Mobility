@@ -75,6 +75,10 @@ ros2 action send_goal fibonacci action_tutorials_interfaces/action/Fibonacci "{o
 
 In the terminal that is running the action server, you should see a logged message “Executing goal…” followed by a warning that the goal state was not set.
 
+
+![image](https://user-images.githubusercontent.com/90166739/196443976-9396b057-e846-4e3d-a18d-39c78d2bcc0a.png)
+
+
 ![image](https://user-images.githubusercontent.com/90166739/196443272-ba2f53f3-6a84-4fe0-8d4a-98778bab0422.png)
 
 
@@ -92,6 +96,9 @@ We can use the method succeed() on the goal handle to indicate that the goal was
 ```
 
 Now if you restart the action server and send another goal, you should see the goal finished with the status SUCCEEDED.
+
+![image](https://user-images.githubusercontent.com/90166739/196444538-9f339333-516b-4840-b53c-6093c3a4a8b6.png)
+
 
 ##
 ##
