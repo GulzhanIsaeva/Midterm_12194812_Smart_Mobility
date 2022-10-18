@@ -263,6 +263,9 @@ In the console you should see corresponding entries:
    3  /ns2/talker
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196480420-fbcee1a0-b493-46fa-9f5e-c412027bb4e1.png)
+
+
 ## Passing parameter values into components
 
 The ros2 component load command-line supports passing arbitrary parameters to the node as it is constructed. This functionality can be used as follows:
