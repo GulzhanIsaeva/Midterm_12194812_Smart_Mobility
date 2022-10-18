@@ -131,7 +131,8 @@ We can check that our action built successfully with the command line tool:
 ros2 interface show action_tutorials_interfaces/action/Fibonacci
 ```
 
-You should see the Fibonacci action definition printed to the screen.
+![image](https://user-images.githubusercontent.com/90166739/196440515-73b44faf-9179-4e11-82f2-0dd5d4de4ebf.png)
+
 
 ## Summary
 
