@@ -57,7 +57,7 @@ An action server requires four arguments:
 - The action name: 'fibonacci'.
 
 - A callback function for executing accepted goals: self.execute_callback. This callback must return a result message for the action type.
-- 
+
 ##
 ##
 
@@ -73,7 +73,13 @@ In another terminal, we can use the command line interface to send a goal:
 ros2 action send_goal fibonacci action_tutorials_interfaces/action/Fibonacci "{order: 5}"
 ```
 
-In the terminal that is running the action server, you should see a logged message “Executing goal…” followed by a warning that the goal state was not set. We can use the method succeed() on the goal handle to indicate that the goal was successful:
+In the terminal that is running the action server, you should see a logged message “Executing goal…” followed by a warning that the goal state was not set.
+
+![image](https://user-images.githubusercontent.com/90166739/196443272-ba2f53f3-6a84-4fe0-8d4a-98778bab0422.png)
+
+
+
+We can use the method succeed() on the goal handle to indicate that the goal was successful:
 
 ```
     def execute_callback(self, goal_handle):
