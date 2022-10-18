@@ -80,7 +80,7 @@ ros2 topic pub -r 1 /turtlesim1/turtle1/cmd_vel geometry_msgs/msg/Twist "{linear
 
 You will see both turtles following the same path.
 
-![image](https://user-images.githubusercontent.com/90166739/195622841-4720dbba-ea01-4bed-b6dc-a3ded02076d7.png)
+![image](https://user-images.githubusercontent.com/90166739/196485043-627110e9-4507-4a12-8475-d9055c42ce5c.png)
 
 
 
@@ -94,7 +94,7 @@ Run the command:
 rqt_graph
 ```
 
-![image](https://user-images.githubusercontent.com/90166739/195623086-2f567e96-36ca-4c2e-afec-40f5ab50d538.png)
+![image](https://user-images.githubusercontent.com/90166739/196485163-7b2dc88c-5914-4035-94de-2685100c5a41.png)
 
 
 A hidden node (the ros2 topic pub command you ran) is publishing data to the /turtlesim1/turtle1/cmd_vel topic on the left, which the /turtlesim1/sim node is subscribed to. The rest of the graph shows what was described earlier: mimic is subscribed to /turtlesim1/sim’s pose topic, and publishes to /turtlesim2/sim’s velocity command topic.
