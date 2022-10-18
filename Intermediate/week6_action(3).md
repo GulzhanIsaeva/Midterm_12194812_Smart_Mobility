@@ -191,6 +191,9 @@ Unloaded component 1 from '/ComponentManager' container
 Unloaded component 2 from '/ComponentManager' container
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196469128-cdbd6999-1f58-462e-b249-c6391d4a39a0.png)
+
+
 In the first shell, verify that the repeated messages from talker and listener have stopped.
 
 
