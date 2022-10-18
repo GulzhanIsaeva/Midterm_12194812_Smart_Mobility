@@ -59,12 +59,18 @@ ros2 launch turtlesim_mimic_launch.py
 
 Two turtlesim windows will open, and you will see the following [INFO] messages telling you which nodes your launch file has started:
 
+![image](https://user-images.githubusercontent.com/90166739/196483251-dbf68392-987b-4b95-894e-4bb4b33d1c9f.png)
+
+
 ```
 [INFO] [launch]: Default logging verbosity is set to INFO
 [INFO] [turtlesim_node-1]: process started with pid [11714]
 [INFO] [turtlesim_node-2]: process started with pid [11715]
 [INFO] [mimic-3]: process started with pid [11716]
 ```
+
+![image](https://user-images.githubusercontent.com/90166739/196483105-e6be88ec-892b-43e2-b607-bb39ba605132.png)
+
 
 To see the system in action, open a new terminal and run the ros2 topic pub command on the /turtlesim1/turtle1/cmd_vel topic to get the first turtle moving:
 
