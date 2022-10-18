@@ -80,6 +80,9 @@ Terminal will return:
 Loaded component 2 into '/ComponentManager' container node as '/listener'
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196460566-db15b908-5313-4730-a012-e03beff73161.png)
+
+
 The ros2 command line utility can now be used to inspect the state of the container:
 
 ```
@@ -93,6 +96,9 @@ You will see the following result:
    1  /talker
    2  /listener
 ```
+
+![image](https://user-images.githubusercontent.com/90166739/196460643-3c0a145f-ff2e-481e-a6e3-183809e6e1e1.png)
+
 
 Now the first shell should show repeated output for each received message
 
