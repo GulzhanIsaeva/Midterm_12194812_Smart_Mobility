@@ -62,7 +62,7 @@ An action definition is made up of three message definitions separated by ---.
 - A result message is sent from an action server to an action client when a goal is done.
 - Feedback messages are periodically sent from an action server to an action client with updates about a goal.
 
--
+
 
 Create an action directory in action_tutorials_interfaces:
 
