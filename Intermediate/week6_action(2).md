@@ -130,6 +130,9 @@ Now let’s make our goal execution actually compute and return the requested Fi
 
 Restart the action server and send another goal.
 
+![image](https://user-images.githubusercontent.com/90166739/196445667-773a3a18-95b0-4789-a634-10f7a5cdb0ff.png)
+
+
 ##
 
 ## 1.2 Publishing feedback
