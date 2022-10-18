@@ -20,6 +20,9 @@ composition
   composition::Client
   ```
   
+  ![image](https://user-images.githubusercontent.com/90166739/196459281-fefbaea1-406d-4808-a0d9-a78915da0963.png)
+
+  
 ## Run-time composition using ROS services with a publisher and subscriber
 
 In the first shell, start the component container:
@@ -40,6 +43,9 @@ You should see a name of the component:
 /ComponentManager
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196459658-d72543bc-6741-435a-8295-8b1d4ae2a6a4.png)
+
+
 In the second shell load the talker component (see talker source code):
 
 ```
@@ -52,7 +58,13 @@ The command will return the unique ID of the loaded component as well as the nod
 Loaded component 1 into '/ComponentManager' container node as '/talker'
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196460063-a0725ee0-cfe4-4fe6-a31b-c88dbf570e32.png)
+
+
 Now the first shell should show a message that the component was loaded as well as repeated message for publishing a message.
+
+![image](https://user-images.githubusercontent.com/90166739/196459898-df68d730-8cf9-41fc-8253-5d26e3529fc8.png)
+
 
 ##
 
