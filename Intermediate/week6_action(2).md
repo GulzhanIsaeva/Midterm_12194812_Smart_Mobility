@@ -148,6 +148,8 @@ After restarting the action server, we can confirm that feedback is now publishe
 ```
 ros2 action send_goal --feedback fibonacci action_tutorials_interfaces/action/Fibonacci "{order: 5}"
 ```
+![image](https://user-images.githubusercontent.com/90166739/196447346-96b89795-5955-42fc-ab4e-ee857d89764f.png)
+
 
 
 ## 2 Writing an action client
