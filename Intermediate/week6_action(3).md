@@ -129,8 +129,10 @@ This demo presents an alternative to run-time composition by creating a generic 
 ros2 run composition dlopen_composition `ros2 pkg prefix composition`/lib/libtalker_component.so `ros2 pkg prefix composition`/lib/liblistener_component.so
 ```
 
-![image](https://user-images.githubusercontent.com/90166739/196462501-6fd51d66-462c-43a6-b6e5-c3363ad33c1b.png)
+![image](https://user-images.githubusercontent.com/90166739/196466371-0d72a986-1f97-43b5-9a7b-b49d0266e076.png)
 
+
+![image](https://user-images.githubusercontent.com/90166739/196466082-e22f6d7d-973a-44f9-bcaf-470ef0717c75.png)
 
 
 ## Composition using launch actions
@@ -141,14 +143,13 @@ While the command line tools are useful for debugging and diagnosing component c
 ros2 launch composition composition_demo.launch.py
 ```
 
-![image](https://user-images.githubusercontent.com/90166739/196462215-5a5baef7-9571-4e3c-8804-8b0c86f41c78.png)
+![image](https://user-images.githubusercontent.com/90166739/196465707-c946bfa3-444a-45a6-8994-341781ccc3fa.png)
 
 
 # Advanced Topics
 
 Now basic operation of components have been done, we can take a look for more advanced topics.
 
-![image](https://user-images.githubusercontent.com/90166739/196462034-0d0d1533-773e-4c0f-acb6-143e1ca053f7.png)
 
 ## Unloading components
 
