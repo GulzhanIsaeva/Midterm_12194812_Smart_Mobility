@@ -148,6 +148,13 @@ After restarting the action server, we can confirm that feedback is now publishe
 ```
 ros2 action send_goal --feedback fibonacci action_tutorials_interfaces/action/Fibonacci "{order: 5}"
 ```
+
+Action Server:
+
+![image](https://user-images.githubusercontent.com/90166739/196447846-1695f5c4-d1df-4357-a500-a5fa7a3f5714.png)
+
+Result:
+
 ![image](https://user-images.githubusercontent.com/90166739/196447346-96b89795-5955-42fc-ab4e-ee857d89764f.png)
 
 
@@ -227,6 +234,9 @@ You should see messages printed by the action server as it successfully executes
 [INFO] [fibonacci_action_server]: Feedback: array('i', [0, 1, 1, 2, 3, 5])
 # etc.
 ```
+
+![image](https://user-images.githubusercontent.com/90166739/196449000-aa6e20cb-6bda-4a8f-b123-814e7cc89645.png)
+
 
 The action client should start up, and then quickly finish. It means we have a functioning action client, but not functioning action server
 
