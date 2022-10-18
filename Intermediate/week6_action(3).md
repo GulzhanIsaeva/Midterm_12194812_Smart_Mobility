@@ -282,6 +282,8 @@ The ros2 component load command-line supports passing particular options to the 
 ros2 component load /ComponentManager composition composition::Talker -e use_intra_process_comms:=true
 ```
 
+![image](https://user-images.githubusercontent.com/90166739/196480872-228b04f1-eb26-458a-a824-aa6669edf6f8.png)
+
 
 
 
