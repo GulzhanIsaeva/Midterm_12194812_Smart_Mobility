@@ -311,6 +311,8 @@ python3 fibonacci_action_client.py
 
 You should see logged messages for the goal being accepted and the final result.
 
+![image](https://user-images.githubusercontent.com/90166739/196450359-1bdb34bb-9398-4bec-8764-780234134b8b.png)
+
 
 ## 2.2 Getting feedback
 
@@ -378,6 +380,9 @@ if __name__ == '__main__':
 ```
 
 Now if we run our action client, you should see feedback being printed to the screen.
+
+![image](https://user-images.githubusercontent.com/90166739/196450998-fc5a9370-dffc-4ac0-8fde-889227f5b6b0.png)
+
 
 ## Summary
 
