@@ -20,8 +20,11 @@ The Robot Operating System (ROS) is a set of software libraries and tools for bu
 
 ```
 -to use turtlesim along with rqt
+(https://github.com/GulzhanIsaeva/Smart_Mobility_ROS/blob/698aebc42f256c700d55776f74731ff8fd58d50b/Beginner/1.%20week4_turtlesim_rqt.md)
 -to create workspace and package
+()
 -to write publisher and subscriber in C++ and Python
+()
 -to write service and client in C++ and Python
 -to create custom srv and msg files
 -to write an action server and client
