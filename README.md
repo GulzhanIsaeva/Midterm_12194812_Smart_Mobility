@@ -23,7 +23,7 @@ The Robot Operating System (ROS) is a set of software libraries and tools for bu
 
 
 
-## During the September and October I learned how:
+## During the semester I learned how:
 
 
 -to use turtlesim along with rqt
