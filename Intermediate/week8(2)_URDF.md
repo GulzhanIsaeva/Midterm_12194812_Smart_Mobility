@@ -1,5 +1,14 @@
 # Building a visual robot model from scratch
 
+Before starting this tutorial I installed joint_state_publisher and urdf_tutorial packages
+
+
+Launch the display.launch.py file:
+
+```
+ros2 launch urdf_tutorial display.launch.py model:=urdf/01-myfirst.urdf
+```
+
 ## One Shape
 
 ```
@@ -13,15 +22,6 @@
     </visual>
   </link>
 </robot>
-```
-
-This is a robot with the name myfirst, that contains only one link, whose visual component is just a cylinder 0.6 meters long with a 0.2 meter radius.
-This is  “hello world” type example but in ROS
-
-To examine the model, launch the display.launch.py file:
-
-```
-ros2 launch urdf_tutorial display.launch.py model:=urdf/01-myfirst.urdf
 ```
 
 This does three things:
@@ -47,6 +47,7 @@ After launching display.launch.py, you should end up with RViz showing you the f
 ## Multiple Shape
 
 Now let’s look at how to add multiple shapes/links. If we just add more link elements to the urdf, the parser won’t know where to put them. So, we have to add joints. Joint elements can refer to both flexible and inflexible joints. 
+
 ```
 <?xml version="1.0"?>
 <robot name="multipleshapes">
