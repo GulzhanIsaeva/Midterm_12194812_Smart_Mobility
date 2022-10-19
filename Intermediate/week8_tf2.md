@@ -1,12 +1,32 @@
-# Writing a static broadcaster (Python)
+# Itroducing tf2
 
-## 1 Create a package
-## 2 Write the static broadcaster node
+The goal is to run a turtlesim demo and see some of the power of tf2 in a multi-robot example using turtlesim.
 
-## 2.1 Add dependencies
+## Installing the demo
 
-## 2.2  Add an entry point
+Install the demo packages and it's dependancies 
 
-## 3 Build
+```
+sudo apt-get install ros-foxy-turtle-tf2-py ros-foxy-tf2-tools ros-foxy-tf-transformations
+```
 
-## 4 Run
+## Running the demo
+
+After installing the <turtle_tf2_py> tutorial package, open a new terminal and source your ROS 2 installation. Then run the following command:
+
+```
+ros2 launch turtle_tf2_py turtle_tf2_demo.launch.py
+```
+
+You will see the turtlesim start with two turtles.
+
+In the second terminal window type the following command:
+
+```
+ros2 run turtlesim turtle_teleop_key
+```
+
+Once the turtlesim is started you can drive the central turtle around in the turtlesim using the keyboard arrow keys, select the second terminal window so that your keystrokes will be captured to drive the turtle.
+
+
+You can see that one turtle continuously moves to follow the turtle you are driving around
