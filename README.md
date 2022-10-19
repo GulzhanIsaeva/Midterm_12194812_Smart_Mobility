@@ -53,6 +53,9 @@ The Robot Operating System (ROS) is a set of software libraries and tools for bu
 -to create launch files, integrate launch files into ROS2 packages and use substitutions
 (https://github.com/GulzhanIsaeva/Smart_Mobility_ROS/blob/698aebc42f256c700d55776f74731ff8fd58d50b/Intermediate/week7_launch_files.md)
 
+-introduction to tf2
+()
+
 -building visual robot from scratch (URDF)
 (https://github.com/GulzhanIsaeva/Smart_Mobility_ROS/blob/698aebc42f256c700d55776f74731ff8fd58d50b/Intermediate/week8(2)_URDF.md)
 
