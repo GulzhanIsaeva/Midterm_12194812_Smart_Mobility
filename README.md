@@ -8,6 +8,13 @@
 3. Course: Smart Mobility Engineering Lab
 ```
 
+# University Honor Code
+
+By signing this pledge, I promise to adhere to exam requirements and
+
+maintain the highest level of ethical principles during the exam period.
+
+
 
 ## What is ROS (foxy)?
 
@@ -16,7 +23,7 @@ The Robot Operating System (ROS) is a set of software libraries and tools for bu
 
 
 
-## I learned how:
+## During the September and October I learned how:
 
 
 -to use turtlesim along with rqt
