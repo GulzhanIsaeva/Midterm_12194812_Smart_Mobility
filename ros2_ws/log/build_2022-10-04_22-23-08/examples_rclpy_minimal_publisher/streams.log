@@ -1,0 +1,19 @@
+[2.057s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher
+[2.826s] running develop
+[3.254s] running egg_info
+[3.254s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.254s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.254s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.255s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.275s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.370s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.372s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.475s] running build_ext
+[3.477s] Creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[3.480s] Installing publisher_local_function script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.481s] Installing publisher_member_function script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.481s] Installing publisher_old_school script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.482s] 
+[3.483s] Installed /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher
+[3.484s] running install_data
+[3.570s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher

@@ -1,0 +1,71 @@
+[0.169s] Invoking command in '/home/foxy/ros2_ws/build/action_tutorials_interfaces': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.197s] UpdateCTestConfiguration  from :/home/foxy/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.200s] Parse Config file:/home/foxy/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.202s]    Site: ubuntu
+[0.202s]    Build name: (empty)
+[0.202s]  Add coverage exclude regular expressions.
+[0.202s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.203s] Create new tag: 20221013-1542 - Experimental
+[0.203s] UpdateCTestConfiguration  from :/home/foxy/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.204s] Parse Config file:/home/foxy/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.204s] Test project /home/foxy/ros2_ws/build/action_tutorials_interfaces
+[0.204s] Constructing a list of tests
+[0.207s] Done constructing a list of tests
+[0.207s] Updating test list for fixtures
+[0.207s] Added 0 tests to meet fixture requirements
+[0.208s] Checking test dependency graph...
+[0.208s] Checking test dependency graph end
+[0.209s] test 1
+[0.210s]     Start 1: copyright
+[0.214s] 
+[0.214s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/copyright.xunit.xml" "--package-name" "action_tutorials_interfaces" "--output-file" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/copyright.xunit.xml"
+[0.214s] 1: Test timeout computed to be: 60
+[0.670s] 1: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/action_tutorials_interfaces':
+[0.673s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/copyright.xunit.xml
+[2.689s] 1: No repository roots and files found
+[2.689s] 1: No problems found, checked 0 files
+[2.725s] 1: -- run_test.py: return code 0
+[2.727s] 1: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/copyright.xunit.xml'
+[2.756s] 1/3 Test #1: copyright ........................   Passed    2.54 sec
+[2.756s] test 2
+[2.757s]     Start 2: lint_cmake
+[2.757s] 
+[2.757s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/lint_cmake.xunit.xml" "--package-name" "action_tutorials_interfaces" "--output-file" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/lint_cmake.xunit.xml"
+[2.758s] 2: Test timeout computed to be: 60
+[2.924s] 2: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/action_tutorials_interfaces':
+[2.925s] 2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/lint_cmake.xunit.xml
+[3.461s] 2: 
+[3.461s] 2: No problems found
+[3.503s] 2: -- run_test.py: return code 0
+[3.503s] 2: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/lint_cmake.xunit.xml'
+[3.523s] 2/3 Test #2: lint_cmake .......................   Passed    0.76 sec
+[3.526s] test 3
+[3.526s]     Start 3: xmllint
+[3.527s] 
+[3.528s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/xmllint.xunit.xml" "--package-name" "action_tutorials_interfaces" "--output-file" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/xmllint.xunit.xml"
+[3.528s] 3: Test timeout computed to be: 60
+[3.700s] 3: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/action_tutorials_interfaces':
+[3.700s] 3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/xmllint.xunit.xml
+[10.007s] 3: File 'package.xml' is invalid:
+[10.010s] 3: /home/foxy/ros2_ws/src/action_tutorials_interfaces/package.xml:15: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+[10.010s] 3: /home/foxy/ros2_ws/src/action_tutorials_interfaces/package.xml fails to validate
+[10.011s] 3: 
+[10.012s] 3: 1 files are invalid
+[10.065s] 3: -- run_test.py: return code 1
+[10.066s] 3: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/xmllint.xunit.xml'
+[10.113s] 3/3 Test #3: xmllint ..........................***Failed    6.59 sec
+[10.115s] 
+[10.116s] 67% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 3
+[10.118s] 
+[10.121s] Label Time Summary:
+[10.122s] copyright     =   2.54 sec*proc (1 test)
+[10.123s] lint_cmake    =   0.76 sec*proc (1 test)
+[10.123s] linter        =   9.89 sec*proc (3 tests)
+[10.125s] xmllint       =   6.59 sec*proc (1 test)
+[10.126s] 
+[10.126s] Total Test time (real) =   9.91 sec
+[10.126s] 
+[10.127s] The following tests FAILED:
+[10.127s] 	[0;31m  3 - xmllint (Failed)[0;0m
+[10.128s] Errors while running CTest
+[10.156s] Invoked command in '/home/foxy/ros2_ws/build/action_tutorials_interfaces' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

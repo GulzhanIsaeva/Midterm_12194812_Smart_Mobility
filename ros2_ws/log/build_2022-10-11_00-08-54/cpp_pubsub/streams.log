@@ -1,0 +1,44 @@
+[0.052s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.198s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.277s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.777s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.804s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.953s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.412s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.875s] -- Found tutorial_interfaces: 0.0.0 (/home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.354s] -- Configuring done
+[2.424s] -- Generating done
+[2.433s] -- Build files have been written to: /home/foxy/ros2_ws/build/cpp_pubsub
+[2.495s] [35m[1mScanning dependencies of target talker[0m
+[2.496s] [35m[1mScanning dependencies of target listener[0m
+[2.562s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.563s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[18.640s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[20.035s] [ 75%] Built target talker
+[24.717s] [100%] [32m[1mLinking CXX executable listener[0m
+[25.349s] [100%] Built target listener
+[25.812s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[26.092s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/cpp_pubsub
+[26.252s] -- Install configuration: ""
+[26.270s] -- Execute custom install script
+[26.465s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[26.468s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[26.552s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[26.576s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[26.937s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[26.952s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[26.969s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[26.991s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[27.015s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[27.035s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[27.057s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[27.073s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[27.075s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[27.157s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[27.193s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[27.207s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[27.209s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[27.227s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/cpp_pubsub

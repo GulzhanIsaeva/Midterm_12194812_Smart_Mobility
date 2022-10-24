@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/action_tutorials_interfaces':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/copyright.xunit.xml
+
+No repository roots and files found
+No problems found, checked 0 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/foxy/ros2_ws/build/action_tutorials_interfaces/test_results/action_tutorials_interfaces/copyright.xunit.xml'

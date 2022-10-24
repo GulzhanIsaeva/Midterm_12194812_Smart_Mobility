@@ -1,0 +1,30 @@
+[0.053s] Invoking command in '/home/foxy/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/tutorial_interfaces
+[0.258s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.838s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.906s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.442s] CMake Error at CMakeLists.txt:25 (find_package):
+[1.442s]   By not providing "Findrosidl_default_generatorss.cmake" in
+[1.442s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.442s]   configuration file provided by "rosidl_default_generatorss", but CMake did
+[1.442s]   not find one.
+[1.443s] 
+[1.443s]   Could not find a package configuration file provided by
+[1.443s]   "rosidl_default_generatorss" with any of the following names:
+[1.443s] 
+[1.443s]     rosidl_default_generatorssConfig.cmake
+[1.443s]     rosidl_default_generatorss-config.cmake
+[1.443s] 
+[1.443s]   Add the installation prefix of "rosidl_default_generatorss" to
+[1.444s]   CMAKE_PREFIX_PATH or set "rosidl_default_generatorss_DIR" to a directory
+[1.444s]   containing one of the above files.  If "rosidl_default_generatorss"
+[1.444s]   provides a separate development package or SDK, be sure it has been
+[1.444s]   installed.
+[1.444s] 
+[1.444s] 
+[1.444s] -- Configuring incomplete, errors occurred!
+[1.445s] See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.458s] Invoked command in '/home/foxy/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/tutorial_interfaces

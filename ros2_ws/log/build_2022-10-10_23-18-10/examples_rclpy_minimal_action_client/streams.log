@@ -1,0 +1,26 @@
+[5.283s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/build
+[6.592s] running develop
+[8.980s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/build
+[8.983s] Invoking command in '/home/foxy/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client --record /home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
+[10.441s] running egg_info
+[10.477s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[10.477s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[10.477s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[10.477s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[10.477s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[10.626s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[10.626s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[10.626s] running build
+[10.627s] running build_py
+[10.627s] running install
+[10.627s] running install_lib
+[10.627s] running install_data
+[10.627s] running install_egg_info
+[10.627s] removing '/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client-0.9.4-py3.8.egg-info' (and everything under it)
+[10.627s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client-0.9.4-py3.8.egg-info
+[10.627s] running install_scripts
+[10.661s] Installing client script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.661s] Installing client_cancel script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.662s] Installing client_not_composable script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.664s] writing list of installed files to '/home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[10.721s] Invoked command in '/home/foxy/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client --record /home/foxy/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed

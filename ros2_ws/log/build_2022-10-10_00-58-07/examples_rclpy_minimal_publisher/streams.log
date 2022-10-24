@@ -1,0 +1,42 @@
+[2.662s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.549s] running develop
+[4.503s] Removing /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[4.577s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[4.583s] Invoking command in '/home/foxy/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher --record /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[5.349s] running egg_info
+[5.351s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[5.353s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[5.355s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[5.357s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[5.360s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[5.474s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.477s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.479s] running build
+[5.479s] running build_py
+[5.481s] creating /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[5.481s] creating /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[5.484s] creating /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.485s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.487s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.488s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.490s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.491s] running install
+[5.494s] running install_lib
+[5.500s] creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[5.502s] copying /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[5.503s] copying /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[5.505s] copying /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[5.506s] copying /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[5.508s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[5.513s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[5.516s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[5.517s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[5.519s] running install_data
+[5.524s] running install_egg_info
+[5.531s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[5.540s] running install_scripts
+[5.606s] Installing publisher_local_function script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.608s] Installing publisher_member_function script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.610s] Installing publisher_old_school script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.612s] writing list of installed files to '/home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[5.713s] Invoked command in '/home/foxy/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher --record /home/foxy/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

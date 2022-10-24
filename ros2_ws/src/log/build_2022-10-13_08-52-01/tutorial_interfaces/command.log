@@ -1,0 +1,2 @@
+Invoking command in '/home/foxy/ros2_ws/src/build/tutorial_interfaces': /usr/bin/cmake /home/foxy/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/src/install/tutorial_interfaces
+Invoked command in '/home/foxy/ros2_ws/src/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/foxy/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/src/install/tutorial_interfaces

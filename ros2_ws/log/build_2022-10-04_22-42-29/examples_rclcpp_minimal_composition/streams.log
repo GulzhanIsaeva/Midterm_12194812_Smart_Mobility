@@ -1,0 +1,31 @@
+[0.642s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition -- -j2 -l2
+[0.937s] [ 33%] Built target composition_nodes
+[1.490s] [ 55%] Built target composition_composed
+[1.542s] [ 77%] Built target composition_subscriber
+[1.962s] [100%] Built target composition_publisher
+[2.178s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition -- -j2 -l2
+[2.186s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition
+[2.236s] -- Install configuration: ""
+[2.237s] -- Execute custom install script
+[2.237s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[2.237s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[2.239s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[2.243s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[2.244s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[2.254s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[2.258s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[2.262s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[2.276s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[2.280s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[2.280s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[2.280s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[2.280s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[2.297s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[2.310s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[2.311s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[2.312s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[2.356s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[2.357s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[2.358s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[2.360s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[2.369s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_composition

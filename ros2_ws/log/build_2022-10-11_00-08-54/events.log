@@ -1,0 +1,331 @@
+[0.000000] (-) TimerEvent: {}
+[0.002296] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002438] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002533] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002615] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002700] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002779] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002860] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002937] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003060] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003148] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003546] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003641] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003718] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003799] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003876] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003956] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004053] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.004125] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.004210] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/foxy/ros2_ws/install/tutorial_interfaces')])}
+[0.004307] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.048915] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.053328] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.053486] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/foxy/ros2_ws/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/foxy/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1567'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces/lib:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/foxy/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:51581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1600,unix/ubuntu:/tmp/.ICE-unix/1600'), ('INVOCATION_ID', 'ab9c10f66dd54e6a91ec76e328efb99d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/358395e0_340b_42b8_83e2_aa30f98d9f6f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.097427] (-) TimerEvent: {}
+[0.198697] (-) TimerEvent: {}
+[0.201668] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.281408] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299826] (-) TimerEvent: {}
+[0.400359] (-) TimerEvent: {}
+[0.501606] (-) TimerEvent: {}
+[0.602920] (-) TimerEvent: {}
+[0.704061] (-) TimerEvent: {}
+[0.781291] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.805089] (-) TimerEvent: {}
+[0.808253] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.905940] (-) TimerEvent: {}
+[0.948868] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.957135] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.006627] (-) TimerEvent: {}
+[1.107766] (-) TimerEvent: {}
+[1.208837] (-) TimerEvent: {}
+[1.244284] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.309068] (-) TimerEvent: {}
+[1.410177] (-) TimerEvent: {}
+[1.415765] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.430942] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.510579] (-) TimerEvent: {}
+[1.611229] (-) TimerEvent: {}
+[1.712098] (-) TimerEvent: {}
+[1.813061] (-) TimerEvent: {}
+[1.878884] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.913804] (-) TimerEvent: {}
+[2.014460] (-) TimerEvent: {}
+[2.115704] (-) TimerEvent: {}
+[2.216524] (-) TimerEvent: {}
+[2.317938] (-) TimerEvent: {}
+[2.358252] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.418245] (-) TimerEvent: {}
+[2.428575] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.437259] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/foxy/ros2_ws/build/cpp_pubsub\n'}
+[2.499555] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[2.499968] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[2.519075] (-) TimerEvent: {}
+[2.565715] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.566802] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.619554] (-) TimerEvent: {}
+[2.721646] (-) TimerEvent: {}
+[2.822830] (-) TimerEvent: {}
+[2.927417] (-) TimerEvent: {}
+[3.028310] (-) TimerEvent: {}
+[3.129011] (-) TimerEvent: {}
+[3.247546] (-) TimerEvent: {}
+[3.348347] (-) TimerEvent: {}
+[3.449455] (-) TimerEvent: {}
+[3.555027] (-) TimerEvent: {}
+[3.656343] (-) TimerEvent: {}
+[3.757464] (-) TimerEvent: {}
+[3.858274] (-) TimerEvent: {}
+[3.959822] (-) TimerEvent: {}
+[4.063772] (-) TimerEvent: {}
+[4.166650] (-) TimerEvent: {}
+[4.267248] (-) TimerEvent: {}
+[4.369374] (-) TimerEvent: {}
+[4.470538] (-) TimerEvent: {}
+[4.572351] (-) TimerEvent: {}
+[4.672942] (-) TimerEvent: {}
+[4.780052] (-) TimerEvent: {}
+[4.881603] (-) TimerEvent: {}
+[4.982335] (-) TimerEvent: {}
+[5.083512] (-) TimerEvent: {}
+[5.184618] (-) TimerEvent: {}
+[5.287716] (-) TimerEvent: {}
+[5.392337] (-) TimerEvent: {}
+[5.493681] (-) TimerEvent: {}
+[5.594612] (-) TimerEvent: {}
+[5.695582] (-) TimerEvent: {}
+[5.796201] (-) TimerEvent: {}
+[5.897787] (-) TimerEvent: {}
+[5.998555] (-) TimerEvent: {}
+[6.105668] (-) TimerEvent: {}
+[6.212037] (-) TimerEvent: {}
+[6.332965] (-) TimerEvent: {}
+[6.442404] (-) TimerEvent: {}
+[6.542975] (-) TimerEvent: {}
+[6.643826] (-) TimerEvent: {}
+[6.744550] (-) TimerEvent: {}
+[6.845607] (-) TimerEvent: {}
+[6.955654] (-) TimerEvent: {}
+[7.057076] (-) TimerEvent: {}
+[7.157981] (-) TimerEvent: {}
+[7.387616] (-) TimerEvent: {}
+[7.489914] (-) TimerEvent: {}
+[7.591029] (-) TimerEvent: {}
+[7.691883] (-) TimerEvent: {}
+[7.806486] (-) TimerEvent: {}
+[7.907442] (-) TimerEvent: {}
+[8.009550] (-) TimerEvent: {}
+[8.110585] (-) TimerEvent: {}
+[8.211930] (-) TimerEvent: {}
+[8.312831] (-) TimerEvent: {}
+[8.420758] (-) TimerEvent: {}
+[8.582806] (-) TimerEvent: {}
+[8.683491] (-) TimerEvent: {}
+[8.840994] (-) TimerEvent: {}
+[8.949874] (-) TimerEvent: {}
+[9.066820] (-) TimerEvent: {}
+[9.170599] (-) TimerEvent: {}
+[9.303805] (-) TimerEvent: {}
+[9.405976] (-) TimerEvent: {}
+[9.507203] (-) TimerEvent: {}
+[9.611115] (-) TimerEvent: {}
+[9.714455] (-) TimerEvent: {}
+[9.815403] (-) TimerEvent: {}
+[9.992140] (-) TimerEvent: {}
+[10.100584] (-) TimerEvent: {}
+[10.201242] (-) TimerEvent: {}
+[10.305122] (-) TimerEvent: {}
+[10.445933] (-) TimerEvent: {}
+[10.546963] (-) TimerEvent: {}
+[10.647792] (-) TimerEvent: {}
+[10.748481] (-) TimerEvent: {}
+[10.855944] (-) TimerEvent: {}
+[10.957448] (-) TimerEvent: {}
+[11.058243] (-) TimerEvent: {}
+[11.166137] (-) TimerEvent: {}
+[11.267561] (-) TimerEvent: {}
+[11.398848] (-) TimerEvent: {}
+[11.499972] (-) TimerEvent: {}
+[11.601116] (-) TimerEvent: {}
+[11.702866] (-) TimerEvent: {}
+[11.803773] (-) TimerEvent: {}
+[11.907763] (-) TimerEvent: {}
+[12.012194] (-) TimerEvent: {}
+[12.113607] (-) TimerEvent: {}
+[12.215063] (-) TimerEvent: {}
+[12.369621] (-) TimerEvent: {}
+[12.536711] (-) TimerEvent: {}
+[12.637402] (-) TimerEvent: {}
+[12.738988] (-) TimerEvent: {}
+[12.840037] (-) TimerEvent: {}
+[12.940729] (-) TimerEvent: {}
+[13.041946] (-) TimerEvent: {}
+[13.142845] (-) TimerEvent: {}
+[13.244049] (-) TimerEvent: {}
+[13.359786] (-) TimerEvent: {}
+[13.460700] (-) TimerEvent: {}
+[13.566808] (-) TimerEvent: {}
+[13.700711] (-) TimerEvent: {}
+[13.801263] (-) TimerEvent: {}
+[13.902428] (-) TimerEvent: {}
+[14.007782] (-) TimerEvent: {}
+[14.110488] (-) TimerEvent: {}
+[14.212262] (-) TimerEvent: {}
+[14.313188] (-) TimerEvent: {}
+[14.415473] (-) TimerEvent: {}
+[14.516228] (-) TimerEvent: {}
+[14.632316] (-) TimerEvent: {}
+[14.735054] (-) TimerEvent: {}
+[14.836005] (-) TimerEvent: {}
+[14.938664] (-) TimerEvent: {}
+[15.040396] (-) TimerEvent: {}
+[15.141200] (-) TimerEvent: {}
+[15.242119] (-) TimerEvent: {}
+[15.343689] (-) TimerEvent: {}
+[15.445121] (-) TimerEvent: {}
+[15.567070] (-) TimerEvent: {}
+[15.668798] (-) TimerEvent: {}
+[15.771291] (-) TimerEvent: {}
+[15.872763] (-) TimerEvent: {}
+[15.974257] (-) TimerEvent: {}
+[16.075708] (-) TimerEvent: {}
+[16.177204] (-) TimerEvent: {}
+[16.278733] (-) TimerEvent: {}
+[16.380064] (-) TimerEvent: {}
+[16.503292] (-) TimerEvent: {}
+[16.604612] (-) TimerEvent: {}
+[16.705628] (-) TimerEvent: {}
+[16.806604] (-) TimerEvent: {}
+[16.907305] (-) TimerEvent: {}
+[17.009014] (-) TimerEvent: {}
+[17.110425] (-) TimerEvent: {}
+[17.211671] (-) TimerEvent: {}
+[17.313032] (-) TimerEvent: {}
+[17.414423] (-) TimerEvent: {}
+[17.515278] (-) TimerEvent: {}
+[17.616933] (-) TimerEvent: {}
+[17.720936] (-) TimerEvent: {}
+[17.823847] (-) TimerEvent: {}
+[17.924436] (-) TimerEvent: {}
+[18.026545] (-) TimerEvent: {}
+[18.127639] (-) TimerEvent: {}
+[18.228476] (-) TimerEvent: {}
+[18.329055] (-) TimerEvent: {}
+[18.429917] (-) TimerEvent: {}
+[18.557260] (-) TimerEvent: {}
+[18.641713] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[18.657330] (-) TimerEvent: {}
+[18.759286] (-) TimerEvent: {}
+[18.860747] (-) TimerEvent: {}
+[18.961882] (-) TimerEvent: {}
+[19.062639] (-) TimerEvent: {}
+[19.164093] (-) TimerEvent: {}
+[19.265604] (-) TimerEvent: {}
+[19.417625] (-) TimerEvent: {}
+[19.560714] (-) TimerEvent: {}
+[19.668352] (-) TimerEvent: {}
+[19.769134] (-) TimerEvent: {}
+[19.870043] (-) TimerEvent: {}
+[19.973191] (-) TimerEvent: {}
+[20.039225] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[20.074012] (-) TimerEvent: {}
+[20.175213] (-) TimerEvent: {}
+[20.275862] (-) TimerEvent: {}
+[20.376750] (-) TimerEvent: {}
+[20.486429] (-) TimerEvent: {}
+[20.587869] (-) TimerEvent: {}
+[20.688571] (-) TimerEvent: {}
+[20.789723] (-) TimerEvent: {}
+[20.890408] (-) TimerEvent: {}
+[20.991101] (-) TimerEvent: {}
+[21.091920] (-) TimerEvent: {}
+[21.193031] (-) TimerEvent: {}
+[21.294381] (-) TimerEvent: {}
+[21.394929] (-) TimerEvent: {}
+[21.505786] (-) TimerEvent: {}
+[21.606807] (-) TimerEvent: {}
+[21.707920] (-) TimerEvent: {}
+[21.808425] (-) TimerEvent: {}
+[21.909161] (-) TimerEvent: {}
+[22.010115] (-) TimerEvent: {}
+[22.111228] (-) TimerEvent: {}
+[22.212066] (-) TimerEvent: {}
+[22.312996] (-) TimerEvent: {}
+[22.446159] (-) TimerEvent: {}
+[22.549526] (-) TimerEvent: {}
+[22.658850] (-) TimerEvent: {}
+[22.761008] (-) TimerEvent: {}
+[22.861912] (-) TimerEvent: {}
+[22.963045] (-) TimerEvent: {}
+[23.063588] (-) TimerEvent: {}
+[23.164186] (-) TimerEvent: {}
+[23.265328] (-) TimerEvent: {}
+[23.366047] (-) TimerEvent: {}
+[23.466934] (-) TimerEvent: {}
+[23.567350] (-) TimerEvent: {}
+[23.668132] (-) TimerEvent: {}
+[23.769044] (-) TimerEvent: {}
+[23.870078] (-) TimerEvent: {}
+[23.971215] (-) TimerEvent: {}
+[24.072035] (-) TimerEvent: {}
+[24.172988] (-) TimerEvent: {}
+[24.273900] (-) TimerEvent: {}
+[24.374958] (-) TimerEvent: {}
+[24.475882] (-) TimerEvent: {}
+[24.576559] (-) TimerEvent: {}
+[24.677724] (-) TimerEvent: {}
+[24.720830] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[24.778409] (-) TimerEvent: {}
+[24.879287] (-) TimerEvent: {}
+[24.980009] (-) TimerEvent: {}
+[25.080954] (-) TimerEvent: {}
+[25.183995] (-) TimerEvent: {}
+[25.284854] (-) TimerEvent: {}
+[25.353651] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[25.444584] (-) TimerEvent: {}
+[25.652549] (-) TimerEvent: {}
+[25.799290] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[25.848195] (-) TimerEvent: {}
+[25.949237] (-) TimerEvent: {}
+[26.050632] (-) TimerEvent: {}
+[26.056694] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[26.081232] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/foxy/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/foxy/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1567'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces/lib:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/foxy/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:51581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1600,unix/ubuntu:/tmp/.ICE-unix/1600'), ('INVOCATION_ID', 'ab9c10f66dd54e6a91ec76e328efb99d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/358395e0_340b_42b8_83e2_aa30f98d9f6f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[26.159900] (-) TimerEvent: {}
+[26.255997] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.260410] (-) TimerEvent: {}
+[26.274515] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.360632] (-) TimerEvent: {}
+[26.461899] (-) TimerEvent: {}
+[26.468658] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[26.472273] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[26.554791] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[26.562228] (-) TimerEvent: {}
+[26.580410] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[26.662956] (-) TimerEvent: {}
+[26.765223] (-) TimerEvent: {}
+[26.866979] (-) TimerEvent: {}
+[26.941291] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[26.956296] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[26.969047] (-) TimerEvent: {}
+[26.973437] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[26.995370] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[27.018572] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[27.038965] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[27.060979] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[27.070072] (-) TimerEvent: {}
+[27.077428] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[27.078677] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[27.161007] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[27.170431] (-) TimerEvent: {}
+[27.197186] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[27.209400] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[27.211803] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[27.227559] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[27.271487] (-) TimerEvent: {}
+[27.373162] (-) TimerEvent: {}
+[27.474423] (-) TimerEvent: {}
+[27.577307] (-) TimerEvent: {}
+[27.678043] (-) TimerEvent: {}
+[27.701263] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[27.704234] (-) EventReactorShutdown: {}

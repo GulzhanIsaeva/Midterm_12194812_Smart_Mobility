@@ -1,0 +1,20 @@
+[1.797s] Invoking command in '/home/foxy/launch_tutorial': PYTHONPATH=/home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/foxy/launch_tutorial/build/launch_tutorial/build install --prefix /home/foxy/launch_tutorial/install/launch_tutorial --record /home/foxy/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed
+[2.320s] running egg_info
+[2.322s] writing build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[2.325s] writing dependency_links to build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[2.327s] writing entry points to build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[2.329s] writing requirements to build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[2.329s] writing top-level names to build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[2.406s] reading manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.409s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.409s] running build
+[2.410s] running build_py
+[2.410s] running install
+[2.412s] running install_lib
+[2.415s] running install_data
+[2.416s] running install_egg_info
+[2.421s] removing '/home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info' (and everything under it)
+[2.422s] Copying build/launch_tutorial/launch_tutorial.egg-info to /home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info
+[2.426s] running install_scripts
+[2.468s] writing list of installed files to '/home/foxy/launch_tutorial/build/launch_tutorial/install.log'
+[2.517s] Invoked command in '/home/foxy/launch_tutorial' returned '0': PYTHONPATH=/home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/foxy/launch_tutorial/build/launch_tutorial/build install --prefix /home/foxy/launch_tutorial/install/launch_tutorial --record /home/foxy/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed

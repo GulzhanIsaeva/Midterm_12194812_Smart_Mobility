@@ -1,0 +1,52 @@
+[0.088s] Invoking command in '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_action_client
+[0.341s] -- The C compiler identification is GNU 9.4.0
+[0.677s] -- The CXX compiler identification is GNU 9.4.0
+[0.705s] -- Check for working C compiler: /usr/bin/cc
+[0.998s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.040s] -- Detecting C compiler ABI info
+[1.324s] -- Detecting C compiler ABI info - done
+[1.493s] -- Detecting C compile features
+[1.493s] -- Detecting C compile features - done
+[1.493s] -- Check for working CXX compiler: /usr/bin/c++
+[1.756s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.760s] -- Detecting CXX compiler ABI info
+[1.974s] -- Detecting CXX compiler ABI info - done
+[2.011s] -- Detecting CXX compile features
+[2.020s] -- Detecting CXX compile features - done
+[2.027s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.089s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.683s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.726s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.817s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.020s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.100s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.690s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.868s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.873s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.876s] -- Looking for pthread.h
+[4.065s] -- Looking for pthread.h - found
+[4.067s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.276s] -- Looking for pthread_create in pthreads
+[4.495s] -- Looking for pthread_create in pthreads - not found
+[4.496s] -- Looking for pthread_create in pthread
+[4.678s] -- Looking for pthread_create in pthread - found
+[4.681s] -- Found Threads: TRUE  
+[5.099s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[5.189s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.369s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.371s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.372s] -- Configured cppcheck include dirs: 
+[5.372s] -- Configured cppcheck exclude dirs and/or files: 
+[5.375s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.375s] -- Configured cpplint exclude dirs and/or files: 
+[5.402s] -- Added test 'lint_cmake' to check CMake code style
+[5.402s] -- Added test 'uncrustify' to check C / C++ code style
+[5.402s] -- Configured uncrustify additional arguments: 
+[5.402s] -- Added test 'xmllint' to check XML markup files
+[5.403s] -- Configuring done
+[5.476s] -- Generating done
+[5.476s] -- Build files have been written to: /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client

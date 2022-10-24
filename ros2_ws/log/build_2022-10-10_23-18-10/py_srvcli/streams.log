@@ -1,0 +1,25 @@
+[5.896s] Invoking command in '/home/foxy/ros2_ws/build/py_srvcli': PYTHONPATH=/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/py_srvcli --uninstall --editable --build-directory /home/foxy/ros2_ws/build/py_srvcli/build
+[8.222s] running develop
+[9.877s] Invoked command in '/home/foxy/ros2_ws/build/py_srvcli' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/py_srvcli --uninstall --editable --build-directory /home/foxy/ros2_ws/build/py_srvcli/build
+[9.881s] Invoking command in '/home/foxy/ros2_ws/src/py_srvcli': PYTHONPATH=/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/foxy/ros2_ws/build/py_srvcli/build install --prefix /home/foxy/ros2_ws/install/py_srvcli --record /home/foxy/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[12.221s] running egg_info
+[12.221s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[12.221s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[12.221s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[12.221s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[12.222s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[12.438s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[12.438s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[12.438s] running build
+[12.438s] running build_py
+[12.438s] running install
+[12.439s] running install_lib
+[12.439s] running install_data
+[12.439s] running install_egg_info
+[12.439s] removing '/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[12.439s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[12.439s] running install_scripts
+[12.632s] Installing client script to /home/foxy/ros2_ws/install/py_srvcli/lib/py_srvcli
+[12.633s] Installing service script to /home/foxy/ros2_ws/install/py_srvcli/lib/py_srvcli
+[12.633s] writing list of installed files to '/home/foxy/ros2_ws/build/py_srvcli/install.log'
+[12.714s] Invoked command in '/home/foxy/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/foxy/ros2_ws/build/py_srvcli/build install --prefix /home/foxy/ros2_ws/install/py_srvcli --record /home/foxy/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

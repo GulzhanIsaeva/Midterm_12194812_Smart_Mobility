@@ -1,0 +1,26 @@
+[4.749s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[6.336s] running develop
+[7.663s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[7.666s] Invoking command in '/home/foxy/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber --record /home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[9.575s] running egg_info
+[9.580s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[9.581s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[9.620s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[9.620s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[9.620s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[9.859s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[9.935s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[9.936s] running build
+[9.936s] running build_py
+[10.041s] running install
+[10.041s] running install_lib
+[10.076s] running install_data
+[10.183s] running install_egg_info
+[10.183s] removing '/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info' (and everything under it)
+[10.184s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info
+[10.184s] running install_scripts
+[10.470s] Installing subscriber_lambda script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[10.470s] Installing subscriber_member_function script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[10.470s] Installing subscriber_old_school script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[10.470s] writing list of installed files to '/home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[10.578s] Invoked command in '/home/foxy/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber --record /home/foxy/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

@@ -1,0 +1,42 @@
+[0.074s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/cpp_pubsub
+[0.176s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.249s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.970s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.008s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.158s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.867s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.784s] -- Configuring done
+[2.842s] -- Generating done
+[2.851s] -- Build files have been written to: /home/foxy/ros2_ws/build/cpp_pubsub
+[2.871s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/cpp_pubsub
+[2.873s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[3.151s] [ 25%] [32m[1mLinking CXX executable listener[0m
+[3.174s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[4.217s] [ 75%] Built target talker
+[5.119s] [100%] Built target listener
+[5.166s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[5.320s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/cpp_pubsub
+[5.344s] -- Install configuration: ""
+[5.345s] -- Execute custom install script
+[5.348s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.375s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.400s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.430s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.479s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.519s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.542s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.575s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.627s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.645s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.688s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.714s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.818s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.885s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.886s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.939s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.948s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.948s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.996s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/cpp_pubsub

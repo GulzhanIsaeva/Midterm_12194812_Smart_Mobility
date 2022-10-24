@@ -1,0 +1,26 @@
+[1.960s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_service --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data --install-dir /home/foxy/ros2_ws/install/examples_rclpy_minimal_service
+[2.646s] running develop
+[3.030s] running egg_info
+[3.030s] creating examples_rclpy_minimal_service.egg-info
+[3.031s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[3.033s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[3.034s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[3.035s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[3.036s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[3.039s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.117s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.122s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.222s] running build_ext
+[3.224s] Creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/site.py
+[3.233s] Creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[3.236s] Installing service script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.238s] Installing service_member_function script to /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.240s] 
+[3.241s] Installed /home/foxy/ros2_ws/build/examples_rclpy_minimal_service
+[3.242s] running install_data
+[3.242s] creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[3.243s] creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[3.244s] creating /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[3.245s] copying resource/examples_rclpy_minimal_service -> /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[3.246s] copying package.xml -> /home/foxy/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[3.325s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_minimal_service --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data --install-dir /home/foxy/ros2_ws/install/examples_rclpy_minimal_service

@@ -1,0 +1,115 @@
+[0.922s] Invoking command in '/home/foxy/ros2_ws/src/py_srvcli': AMENT_PREFIX_PATH=/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy PYTEST_ADDOPTS=--tb=short --junit-xml=/home/foxy/ros2_ws/build/py_srvcli/pytest.xml --junit-prefix=py_srvcli -o cache_dir=/home/foxy/ros2_ws/build/py_srvcli/.pytest_cache PYTHONPATH=/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -m pytest
+[2.628s] [1m============================= test session starts ==============================[0m
+[2.628s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[2.653s] cachedir: /home/foxy/ros2_ws/build/py_srvcli/.pytest_cache
+[2.657s] rootdir: /home/foxy/ros2_ws/src/py_srvcli
+[2.657s] plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1
+[2.888s] [1mcollecting ... [0m[1m
+[2.897s] collected 3 items                                                              [0m
+[2.907s] 
+[3.043s] test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+[3.498s] test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+[3.540s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[3.540s] 
+[3.540s] =================================== FAILURES ===================================
+[3.540s] [31m[1m________________________________ test_copyright ________________________________[0m
+[3.541s] [1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[3.541s] [1m    assert rc == 0, 'Found errors'[0m
+[3.541s] [1m[31mE   AssertionError: Found errors[0m
+[3.541s] [1m[31mE   assert 1 == 0[0m
+[3.541s] ----------------------------- Captured stderr call -----------------------------
+[3.541s] py_srvcli/client_member_function.py: could not find copyright notice
+[3.541s] py_srvcli/service_member_function.py: could not find copyright notice
+[3.541s] 2 errors, checked 6 files
+[3.542s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[3.542s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[3.542s] [1m    assert rc == 0, \[0m
+[3.542s] [1m[31mE   AssertionError: Found 11 code style errors / warnings:[0m
+[3.543s] [1m[31mE     ./setup.py:23:9: E122 continuation line missing indentation or outdented[0m
+[3.543s] [1m[31mE     ./setup.py:24:9: E122 continuation line missing indentation or outdented[0m
+[3.543s] [1m[31mE     ./setup.py:26:7: W291 trailing whitespace[0m
+[3.543s] [1m[31mE     ./py_srvcli/service_member_function.py:11:100: E501 line too long (100 > 99 characters)[0m
+[3.543s] [1m[31mE     ./py_srvcli/service_member_function.py:14:57: W291 trailing whitespace[0m
+[3.551s] [1m[31mE     ./py_srvcli/service_member_function.py:15:100: E501 line too long (105 > 99 characters)[0m
+[3.562s] [1m[31mE     ./py_srvcli/client_member_function.py:15:1: W293 blank line contains whitespace[0m
+[3.604s] [1m[31mE     ./py_srvcli/client_member_function.py:41:100: E501 line too long (110 > 99 characters)[0m
+[3.636s] [1m[31mE     ./py_srvcli/client_member_function.py:42:100: E501 line too long (110 > 99 characters)[0m
+[3.636s] [1m[31mE     ./py_srvcli/client_member_function.py:42:102: E261 at least two spaces before inline comment[0m
+[3.636s] [1m[31mE     ./py_srvcli/client_member_function.py:48:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[3.637s] [1m[31mE   assert 1 == 0[0m
+[3.637s] ----------------------------- Captured stdout call -----------------------------
+[3.637s] 
+[3.637s] ./setup.py:23:9: E122 continuation line missing indentation or outdented
+[3.637s]         'service = py_srvcli.service_member_function:main',
+[3.637s]         ^
+[3.638s] 
+[3.638s] ./setup.py:24:9: E122 continuation line missing indentation or outdented
+[3.639s]         'client = py_srvcli.client_member_function:main',
+[3.639s]         ^
+[3.639s] 
+[3.639s] ./setup.py:26:7: W291 trailing whitespace
+[3.639s]     }, 
+[3.639s]       ^
+[3.639s] 
+[3.639s] ./py_srvcli/service_member_function.py:11:100: E501 line too long (100 > 99 characters)
+[3.640s]         self.srv = self.create_service(AddThreeInts, 'add_three_ints', self.add_three_ints_callback)
+[3.640s]                                                                                                    ^
+[3.640s] 
+[3.640s] ./py_srvcli/service_member_function.py:14:57: W291 trailing whitespace
+[3.640s]         response.sum = request.a + request.b + request.c                                                  
+[3.640s]                                                         ^
+[3.640s] 
+[3.641s] ./py_srvcli/service_member_function.py:15:100: E501 line too long (105 > 99 characters)
+[3.641s]         self.get_logger().info('Incoming request\na: %d b: %d c: %d' % (request.a, request.b, request.c))
+[3.641s]                                                                                                    ^
+[3.641s] 
+[3.641s] ./py_srvcli/client_member_function.py:15:1: W293 blank line contains whitespace
+[3.641s]         
+[3.645s] ^
+[3.651s] 
+[3.651s] ./py_srvcli/client_member_function.py:41:100: E501 line too long (110 > 99 characters)
+[3.651s]                     'Result of add_three_ints: for %d + %d + %d = %d' %                               # CHANGE
+[3.651s]                                                                                                    ^
+[3.652s] 
+[3.652s] ./py_srvcli/client_member_function.py:42:100: E501 line too long (110 > 99 characters)
+[3.652s]                     (minimal_client.req.a, minimal_client.req.b, minimal_client.req.c, response.sum)) # CHANGE
+[3.652s]                                                                                                    ^
+[3.652s] 
+[3.652s] [33m=============================== warnings summary ===============================[0m
+[3.652s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[3.652s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[3.653s] 
+[3.653s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[3.653s] ./py_srvcli/client_member_function.py:42:102: E261 at least two spaces before inline comment
+[3.653s]                     (minimal_client.req.a, minimal_client.req.b, minimal_client.req.c, response.sum)) # CHANGE
+[3.653s]                                                                                                      ^
+[3.653s] 
+[3.653s] ./py_srvcli/client_member_function.py:48:1: E305 expected 2 blank lines after class or function definition, found 1
+[3.654s] if __name__ == '__main__':
+[3.654s] ^
+[3.654s] 
+[3.654s] 2     E122 continuation line missing indentation or outdented
+[3.654s] 1     E261 at least two spaces before inline comment
+[3.654s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[3.654s] 4     E501 line too long (110 > 99 characters)
+[3.654s] 2     W291 trailing whitespace
+[3.654s] 1     W293 blank line contains whitespace
+[3.655s] 
+[3.655s] 7 files checked
+[3.655s] 11 errors
+[3.655s] 
+[3.655s] 'E'-type errors: 8
+[3.655s] 'W'-type errors: 3
+[3.655s] 
+[3.655s] Checked files:
+[3.656s] 
+[3.656s] * ./setup.py
+[3.656s] * ./py_srvcli/service_member_function.py
+[3.656s] * ./py_srvcli/__init__.py
+[3.656s] * ./py_srvcli/client_member_function.py
+[3.656s] * ./test/test_copyright.py
+[3.656s] * ./test/test_flake8.py
+[3.656s] * ./test/test_pep257.py
+[3.657s] ------ generated xml file: /home/foxy/ros2_ws/build/py_srvcli/pytest.xml -------
+[3.657s] [31m[1m================ 2 failed, 1 passed, 1 warnings in 0.87 seconds ================[0m
+[3.737s] Invoked command in '/home/foxy/ros2_ws/src/py_srvcli' returned '1': AMENT_PREFIX_PATH=/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy PYTEST_ADDOPTS=--tb=short --junit-xml=/home/foxy/ros2_ws/build/py_srvcli/pytest.xml --junit-prefix=py_srvcli -o cache_dir=/home/foxy/ros2_ws/build/py_srvcli/.pytest_cache PYTHONPATH=/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -m pytest

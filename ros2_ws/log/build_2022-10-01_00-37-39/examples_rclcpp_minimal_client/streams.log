@@ -1,0 +1,78 @@
+[0.525s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client
+[1.981s] -- The C compiler identification is GNU 9.4.0
+[2.361s] -- The CXX compiler identification is GNU 9.4.0
+[2.535s] -- Check for working C compiler: /usr/bin/cc
+[2.949s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.961s] -- Detecting C compiler ABI info
+[3.356s] -- Detecting C compiler ABI info - done
+[3.392s] -- Detecting C compile features
+[3.395s] -- Detecting C compile features - done
+[3.411s] -- Check for working CXX compiler: /usr/bin/c++
+[3.768s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.772s] -- Detecting CXX compiler ABI info
+[3.990s] -- Detecting CXX compiler ABI info - done
+[4.024s] -- Detecting CXX compile features
+[4.026s] -- Detecting CXX compile features - done
+[4.096s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.766s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.766s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.042s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[7.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.252s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.593s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.679s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.841s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.053s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.063s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.069s] -- Looking for pthread.h
+[9.410s] -- Looking for pthread.h - found
+[9.411s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.610s] -- Looking for pthread_create in pthreads
+[9.964s] -- Looking for pthread_create in pthreads - not found
+[9.965s] -- Looking for pthread_create in pthread
+[10.343s] -- Looking for pthread_create in pthread - found
+[10.343s] -- Found Threads: TRUE  
+[19.368s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[35.296s] -- Added test 'copyright' to check source files copyright and LICENSE
+[35.297s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[35.297s] -- Configured cppcheck include dirs: 
+[35.297s] -- Configured cppcheck exclude dirs and/or files: 
+[35.297s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[35.297s] -- Configured cpplint exclude dirs and/or files: 
+[35.297s] -- Added test 'lint_cmake' to check CMake code style
+[35.298s] -- Added test 'uncrustify' to check C / C++ code style
+[35.298s] -- Configured uncrustify additional arguments: 
+[35.300s] -- Added test 'xmllint' to check XML markup files
+[35.556s] -- Configuring done
+[36.122s] -- Generating done
+[36.209s] -- Build files have been written to: /home/foxy/ros2_ws/build/examples_rclcpp_minimal_client
+[36.931s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client
+[37.959s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_client -- -j2 -l2
+[41.157s] [35m[1mScanning dependencies of target client_main[0m
+[41.713s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[89.069s] [100%] [32m[1mLinking CXX executable client_main[0m
+[89.709s] [100%] Built target client_main
+[89.748s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_client -- -j2 -l2
+[89.829s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_client
+[89.854s] -- Install configuration: ""
+[89.857s] -- Execute custom install script
+[89.861s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[89.886s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[89.911s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[89.942s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[89.977s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[90.004s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[90.030s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[90.058s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[90.168s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[90.250s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[90.257s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[90.259s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[90.372s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[90.539s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[90.558s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[90.639s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[90.678s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_client

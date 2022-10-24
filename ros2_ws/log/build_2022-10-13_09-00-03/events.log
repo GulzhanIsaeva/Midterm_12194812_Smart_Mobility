@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.003045] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.003250] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.003365] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.003464] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.003557] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.003671] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.003756] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.003798] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.003835] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.003870] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.003943] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.004021] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.004098] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.004174] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.004250] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.004325] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.004401] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.004478] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.004554] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.004647] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/foxy/ros2_ws/install/tutorial_interfaces')])}
+[0.005098] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.053585] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.098020] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.099426] (-) TimerEvent: {}
+[0.101817] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.107240] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/foxy/ros2_ws/build/tutorial_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/foxy/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1584'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy/ros2_ws/src/action_tutorials_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:50766'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', 'e9778643303b469eb6f0742ecb3aaafb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5175ff19_9ed0_4333_bd3d_18bee6332fd4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.146181] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.166782] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[0.167569] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/foxy/ros2_ws/build/action_tutorials_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/foxy/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1584'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy/ros2_ws/src/action_tutorials_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:50766'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', 'e9778643303b469eb6f0742ecb3aaafb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5175ff19_9ed0_4333_bd3d_18bee6332fd4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.200765] (-) TimerEvent: {}
+[0.236772] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.253113] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.302364] (-) TimerEvent: {}
+[0.302823] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.303134] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.316818] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.319009] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.402778] (-) TimerEvent: {}
+[0.504580] (-) TimerEvent: {}
+[0.619943] (-) TimerEvent: {}
+[0.737179] (-) TimerEvent: {}
+[0.839414] (-) TimerEvent: {}
+[0.941099] (-) TimerEvent: {}
+[1.042167] (-) TimerEvent: {}
+[1.076382] (tutorial_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.099494] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.124038] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.142375] (-) TimerEvent: {}
+[1.158413] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.170894] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.245222] (-) TimerEvent: {}
+[1.349330] (-) TimerEvent: {}
+[1.395573] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.395888] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.402568] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.452911] (-) TimerEvent: {}
+[1.554333] (-) TimerEvent: {}
+[1.750324] (-) TimerEvent: {}
+[1.818561] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.850708] (-) TimerEvent: {}
+[1.951824] (-) TimerEvent: {}
+[2.001346] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.037379] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.052505] (-) TimerEvent: {}
+[2.059253] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.122151] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.153037] (-) TimerEvent: {}
+[2.169794] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.174721] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.253472] (-) TimerEvent: {}
+[2.354270] (-) TimerEvent: {}
+[2.478279] (-) TimerEvent: {}
+[2.503556] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.575624] (tutorial_interfaces) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[2.579041] (-) TimerEvent: {}
+[2.680834] (-) TimerEvent: {}
+[2.782359] (-) TimerEvent: {}
+[2.797819] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.802917] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.876035] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.882747] (-) TimerEvent: {}
+[2.959354] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.960599] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.983844] (-) TimerEvent: {}
+[3.017914] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.019709] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.020846] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.084894] (-) TimerEvent: {}
+[3.098738] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.116656] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.120071] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.163061] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.185565] (-) TimerEvent: {}
+[3.242383] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml':\n"}
+[3.286169] (-) TimerEvent: {}
+[3.329669] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.351960] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/foxy/ros2_ws/build/action_tutorials_interfaces\n'}
+[3.386272] (-) TimerEvent: {}
+[3.415745] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__cpp\x1b[0m\n'}
+[3.458152] (action_tutorials_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.522793] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.523305] (-) TimerEvent: {}
+[3.624328] (-) TimerEvent: {}
+[3.728911] (-) TimerEvent: {}
+[3.831073] (-) TimerEvent: {}
+[3.856236] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.857636] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[3.857876] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[3.858027] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[3.858146] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[3.858254] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[3.858365] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.858476] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[3.858583] (tutorial_interfaces) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[3.858686] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[3.863568] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[3.863944] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml':\n"}
+[3.864145] (tutorial_interfaces) StderrLine: {'line': b'The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package\n'}
+[3.864285] (tutorial_interfaces) StderrLine: {'line': b'The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package\n'}
+[3.864442] (tutorial_interfaces) StderrLine: {'line': b'The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package\n'}
+[3.931450] (-) TimerEvent: {}
+[3.986978] (tutorial_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[3.987265] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.987401] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.987516] (tutorial_interfaces) StderrLine: {'line': b'  /home/foxy/ros2_ws/src/tutorial_interfaces/package.xml\n'}
+[3.987627] (tutorial_interfaces) StderrLine: {'line': b'  /home/foxy/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[3.988385] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[3.988533] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.988649] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.988762] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[3.988871] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:33 (rosidl_generate_interfaces)\n'}
+[3.989083] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[3.989195] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[3.989299] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.989416] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[3.989849] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeError.log".\n'}
+[4.008487] (tutorial_interfaces) StderrLine: {'line': b'make: *** [Makefile:1228: cmake_check_build_system] Error 1\n'}
+[4.013461] (tutorial_interfaces) CommandEnded: {'returncode': 2}
+[4.014316] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 2}
+[4.035031] (-) TimerEvent: {}
+[4.136758] (-) TimerEvent: {}
+[4.238356] (-) TimerEvent: {}
+[4.343219] (-) TimerEvent: {}
+[4.444572] (-) TimerEvent: {}
+[4.546206] (-) TimerEvent: {}
+[4.648447] (-) TimerEvent: {}
+[4.750996] (-) TimerEvent: {}
+[4.806321] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] Built target action_tutorials_interfaces__cpp\n'}
+[4.838711] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.851778] (-) TimerEvent: {}
+[4.953354] (-) TimerEvent: {}
+[4.955199] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.010464] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[5.053496] (-) TimerEvent: {}
+[5.158889] (-) TimerEvent: {}
+[5.260420] (-) TimerEvent: {}
+[5.361698] (-) TimerEvent: {}
+[5.465590] (-) TimerEvent: {}
+[5.520356] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.597137] (-) TimerEvent: {}
+[5.698461] (-) TimerEvent: {}
+[5.802821] (-) TimerEvent: {}
+[5.864289] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] Built target action_tutorials_interfaces__rosidl_generator_c\n'}
+[5.885909] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.903220] (-) TimerEvent: {}
+[5.905401] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.995768] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[6.003447] (-) TimerEvent: {}
+[6.104175] (-) TimerEvent: {}
+[6.205535] (-) TimerEvent: {}
+[6.312201] (-) TimerEvent: {}
+[6.416734] (-) TimerEvent: {}
+[6.518259] (-) TimerEvent: {}
+[6.627712] (-) TimerEvent: {}
+[6.731361] (-) TimerEvent: {}
+[6.834708] (-) TimerEvent: {}
+[6.935404] (-) TimerEvent: {}
+[7.036353] (-) TimerEvent: {}
+[7.137823] (-) TimerEvent: {}
+[7.238804] (-) TimerEvent: {}
+[7.340314] (-) TimerEvent: {}
+[7.356277] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.440849] (-) TimerEvent: {}
+[7.524953] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[7.541124] (-) TimerEvent: {}
+[7.670474] (-) TimerEvent: {}
+[7.721521] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.771387] (-) TimerEvent: {}
+[7.872927] (-) TimerEvent: {}
+[7.949666] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.973802] (-) TimerEvent: {}
+[7.975024] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.075245] (-) TimerEvent: {}
+[8.177021] (-) TimerEvent: {}
+[8.279867] (-) TimerEvent: {}
+[8.381373] (-) TimerEvent: {}
+[8.483435] (-) TimerEvent: {}
+[8.584867] (-) TimerEvent: {}
+[8.685972] (-) TimerEvent: {}
+[8.706587] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.762100] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[8.786854] (-) TimerEvent: {}
+[8.888181] (-) TimerEvent: {}
+[8.989449] (-) TimerEvent: {}
+[9.090789] (-) TimerEvent: {}
+[9.196515] (-) TimerEvent: {}
+[9.298317] (-) TimerEvent: {}
+[9.399151] (-) TimerEvent: {}
+[9.511068] (-) TimerEvent: {}
+[9.618955] (-) TimerEvent: {}
+[9.752749] (-) TimerEvent: {}
+[9.857827] (-) TimerEvent: {}
+[9.964783] (-) TimerEvent: {}
+[10.078149] (-) TimerEvent: {}
+[10.178880] (-) TimerEvent: {}
+[10.280913] (-) TimerEvent: {}
+[10.346837] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.382309] (-) TimerEvent: {}
+[10.483556] (-) TimerEvent: {}
+[10.584403] (-) TimerEvent: {}
+[10.686068] (-) TimerEvent: {}
+[10.799835] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.800437] (-) TimerEvent: {}
+[10.809604] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.830697] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.902099] (-) TimerEvent: {}
+[10.991468] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp\n'}
+[11.003119] (-) TimerEvent: {}
+[11.013319] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.103826] (-) TimerEvent: {}
+[11.205889] (-) TimerEvent: {}
+[11.307426] (-) TimerEvent: {}
+[11.408404] (-) TimerEvent: {}
+[11.560737] (-) TimerEvent: {}
+[11.662393] (-) TimerEvent: {}
+[11.765309] (-) TimerEvent: {}
+[11.865573] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[11.865960] (-) TimerEvent: {}
+[11.895916] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.914666] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[11.947713] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[11.967113] (-) TimerEvent: {}
+[12.050048] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.067646] (-) TimerEvent: {}
+[12.075105] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.167948] (-) TimerEvent: {}
+[12.175192] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.191554] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_c\n'}
+[12.201558] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.268944] (-) TimerEvent: {}
+[12.370145] (-) TimerEvent: {}
+[12.479115] (-) TimerEvent: {}
+[12.587432] (-) TimerEvent: {}
+[12.730388] (-) TimerEvent: {}
+[12.831632] (-) TimerEvent: {}
+[12.933857] (-) TimerEvent: {}
+[13.036214] (-) TimerEvent: {}
+[13.137492] (-) TimerEvent: {}
+[13.220816] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.238415] (-) TimerEvent: {}
+[13.264382] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[13.339062] (-) TimerEvent: {}
+[13.440396] (-) TimerEvent: {}
+[13.541441] (-) TimerEvent: {}
+[13.644998] (-) TimerEvent: {}
+[13.746285] (-) TimerEvent: {}
+[13.848209] (-) TimerEvent: {}
+[13.949645] (-) TimerEvent: {}
+[14.051019] (-) TimerEvent: {}
+[14.152841] (-) TimerEvent: {}
+[14.253971] (-) TimerEvent: {}
+[14.349680] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.354150] (-) TimerEvent: {}
+[14.454947] (-) TimerEvent: {}
+[14.556494] (-) TimerEvent: {}
+[14.626283] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[14.655303] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces\x1b[0m\n'}
+[14.658248] (-) TimerEvent: {}
+[14.759776] (-) TimerEvent: {}
+[14.763311] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces\n'}
+[14.786544] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__py\x1b[0m\n'}
+[14.828487] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.860791] (-) TimerEvent: {}
+[14.961840] (-) TimerEvent: {}
+[15.062543] (-) TimerEvent: {}
+[15.163773] (-) TimerEvent: {}
+[15.264656] (-) TimerEvent: {}
+[15.365853] (-) TimerEvent: {}
+[15.466729] (-) TimerEvent: {}
+[15.568347] (-) TimerEvent: {}
+[15.669164] (-) TimerEvent: {}
+[15.770762] (-) TimerEvent: {}
+[15.872135] (-) TimerEvent: {}
+[15.973016] (-) TimerEvent: {}
+[16.074497] (-) TimerEvent: {}
+[16.175941] (-) TimerEvent: {}
+[16.276641] (-) TimerEvent: {}
+[16.377425] (-) TimerEvent: {}
+[16.478910] (-) TimerEvent: {}
+[16.585445] (-) TimerEvent: {}
+[16.686568] (-) TimerEvent: {}
+[16.788810] (-) TimerEvent: {}
+[16.889365] (-) TimerEvent: {}
+[16.990359] (-) TimerEvent: {}
+[17.091489] (-) TimerEvent: {}
+[17.192545] (-) TimerEvent: {}
+[17.293712] (-) TimerEvent: {}
+[17.345745] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_tutorials_interfaces__py\n'}
+[17.369708] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__python\x1b[0m\n'}
+[17.395094] (-) TimerEvent: {}
+[17.468447] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__python.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[17.495355] (-) TimerEvent: {}
+[17.596423] (-) TimerEvent: {}
+[17.697183] (-) TimerEvent: {}
+[17.798500] (-) TimerEvent: {}
+[17.873170] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__python.so\x1b[0m\n'}
+[17.898831] (-) TimerEvent: {}
+[17.989443] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_tutorials_interfaces__python\n'}
+[17.999164] (-) TimerEvent: {}
+[18.012811] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.013116] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.067286] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.071509] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.099607] (-) TimerEvent: {}
+[18.201501] (-) TimerEvent: {}
+[18.302432] (-) TimerEvent: {}
+[18.322651] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.323417] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.403645] (-) TimerEvent: {}
+[18.430260] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.458841] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[18.504410] (-) TimerEvent: {}
+[18.507847] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.525358] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 96%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.605418] (-) TimerEvent: {}
+[18.710534] (-) TimerEvent: {}
+[18.782070] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.812284] (-) TimerEvent: {}
+[18.879530] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[18.904965] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 'SIGINT'}
+[18.913334] (-) TimerEvent: {}
+[18.929795] (examples_rclcpp_minimal_action_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[18.929946] (examples_rclcpp_minimal_action_server) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[18.929997] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[18.930039] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[18.930077] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[18.930113] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[18.930226] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[18.930275] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[18.930311] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[18.930347] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[18.930382] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[18.930416] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[18.930450] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[18.930485] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[18.930521] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[18.930556] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[18.930590] (py_srvcli) JobSkipped: {'identifier': 'py_srvcli'}
+[18.930625] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[18.930661] (-) EventReactorShutdown: {}

@@ -1,0 +1,71 @@
+[0.224s] Invoking command in '/home/foxy/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.254s] UpdateCTestConfiguration  from :/home/foxy/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.255s] Parse Config file:/home/foxy/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.257s]    Site: ubuntu
+[0.257s]    Build name: (empty)
+[0.257s]  Add coverage exclude regular expressions.
+[0.258s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.259s] Create new tag: 20221013-1542 - Experimental
+[0.259s] UpdateCTestConfiguration  from :/home/foxy/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.259s] Parse Config file:/home/foxy/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.260s] Test project /home/foxy/ros2_ws/build/tutorial_interfaces
+[0.260s] Constructing a list of tests
+[0.260s] Done constructing a list of tests
+[0.260s] Updating test list for fixtures
+[0.260s] Added 0 tests to meet fixture requirements
+[0.260s] Checking test dependency graph...
+[0.260s] Checking test dependency graph end
+[0.260s] test 1
+[0.261s]     Start 1: copyright
+[0.261s] 
+[0.261s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml"
+[0.261s] 1: Test timeout computed to be: 60
+[0.709s] 1: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/tutorial_interfaces':
+[0.709s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml
+[2.661s] 1: No repository roots and files found
+[2.662s] 1: No problems found, checked 0 files
+[2.705s] 1: -- run_test.py: return code 0
+[2.705s] 1: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml'
+[2.720s] 1/3 Test #1: copyright ........................   Passed    2.46 sec
+[2.721s] test 2
+[2.721s]     Start 2: lint_cmake
+[2.723s] 
+[2.724s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml"
+[2.724s] 2: Test timeout computed to be: 60
+[2.907s] 2: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/tutorial_interfaces':
+[2.908s] 2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml
+[3.451s] 2: 
+[3.451s] 2: No problems found
+[3.490s] 2: -- run_test.py: return code 0
+[3.490s] 2: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml'
+[3.513s] 2/3 Test #2: lint_cmake .......................   Passed    0.79 sec
+[3.514s] test 3
+[3.514s]     Start 3: xmllint
+[3.514s] 
+[3.515s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml"
+[3.515s] 3: Test timeout computed to be: 60
+[3.708s] 3: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/tutorial_interfaces':
+[3.709s] 3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml
+[10.044s] 3: File 'package.xml' is invalid:
+[10.044s] 3: /home/foxy/ros2_ws/src/tutorial_interfaces/package.xml:20: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+[10.049s] 3: /home/foxy/ros2_ws/src/tutorial_interfaces/package.xml fails to validate
+[10.049s] 3: 
+[10.049s] 3: 1 files are invalid
+[10.099s] 3: -- run_test.py: return code 1
+[10.100s] 3: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml'
+[10.204s] Errors while running CTest
+[10.204s] 3/3 Test #3: xmllint ..........................***Failed    6.66 sec
+[10.204s] 
+[10.209s] 67% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 3
+[10.210s] 
+[10.210s] Label Time Summary:
+[10.211s] copyright     =   2.46 sec*proc (1 test)
+[10.211s] lint_cmake    =   0.79 sec*proc (1 test)
+[10.212s] linter        =   9.91 sec*proc (3 tests)
+[10.212s] xmllint       =   6.66 sec*proc (1 test)
+[10.212s] 
+[10.212s] Total Test time (real) =   9.92 sec
+[10.212s] 
+[10.213s] The following tests FAILED:
+[10.213s] 	[0;31m  3 - xmllint (Failed)[0;0m
+[10.298s] Invoked command in '/home/foxy/ros2_ws/build/tutorial_interfaces' returned '8': CMAKE_PREFIX_PATH=/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

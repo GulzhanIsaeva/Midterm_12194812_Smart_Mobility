@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="action_tutorials_interfaces.xmllint"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="5.724"
+>
+  <testcase
+    name="package.xml"
+    classname="action_tutorials_interfaces.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[/home/foxy/ros2_ws/src/action_tutorials_interfaces/package.xml:15: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+/home/foxy/ros2_ws/src/action_tutorials_interfaces/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

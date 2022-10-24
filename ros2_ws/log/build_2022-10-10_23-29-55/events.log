@@ -1,0 +1,531 @@
+[0.000000] (-) TimerEvent: {}
+[0.000588] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000709] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000801] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000882] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000963] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001062] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001134] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001206] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001276] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001346] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001415] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001485] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001554] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001624] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001692] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001761] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001837] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002071] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002174] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002226] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.046581] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.048260] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.052437] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/foxy/ros2_ws/build/tutorial_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/foxy/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1567'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/foxy/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:51581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1600,unix/ubuntu:/tmp/.ICE-unix/1600'), ('INVOCATION_ID', 'ab9c10f66dd54e6a91ec76e328efb99d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d6550339_fcef_4d1d_98c9_c45ebeb1dfeb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.095858] (-) TimerEvent: {}
+[0.129139] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.196485] (-) TimerEvent: {}
+[0.209302] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.297098] (-) TimerEvent: {}
+[0.398043] (-) TimerEvent: {}
+[0.498928] (-) TimerEvent: {}
+[0.600658] (-) TimerEvent: {}
+[0.702220] (-) TimerEvent: {}
+[0.819122] (-) TimerEvent: {}
+[0.828372] (tutorial_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.828675] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.866748] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.876572] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.920230] (-) TimerEvent: {}
+[1.021548] (-) TimerEvent: {}
+[1.122696] (-) TimerEvent: {}
+[1.182209] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.223482] (-) TimerEvent: {}
+[1.324757] (-) TimerEvent: {}
+[1.399558] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.425057] (-) TimerEvent: {}
+[1.514002] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.525554] (-) TimerEvent: {}
+[1.626216] (-) TimerEvent: {}
+[1.727005] (-) TimerEvent: {}
+[1.827800] (-) TimerEvent: {}
+[1.934299] (-) TimerEvent: {}
+[2.060882] (-) TimerEvent: {}
+[2.175279] (-) TimerEvent: {}
+[2.276909] (-) TimerEvent: {}
+[2.287326] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.377419] (-) TimerEvent: {}
+[2.478063] (-) TimerEvent: {}
+[2.579143] (-) TimerEvent: {}
+[2.679897] (-) TimerEvent: {}
+[2.781078] (-) TimerEvent: {}
+[2.882971] (-) TimerEvent: {}
+[3.010297] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.010675] (-) TimerEvent: {}
+[3.111700] (-) TimerEvent: {}
+[3.212426] (-) TimerEvent: {}
+[3.313335] (-) TimerEvent: {}
+[3.326271] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.414236] (-) TimerEvent: {}
+[3.423462] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.432519] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.514399] (-) TimerEvent: {}
+[3.540479] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.541395] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.541782] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.541951] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.614983] (-) TimerEvent: {}
+[3.621148] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.715900] (-) TimerEvent: {}
+[3.816507] (-) TimerEvent: {}
+[3.918841] (-) TimerEvent: {}
+[3.972780] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.021161] (-) TimerEvent: {}
+[4.052490] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.052783] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.052925] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.081826] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.121358] (-) TimerEvent: {}
+[4.222024] (-) TimerEvent: {}
+[4.374701] (-) TimerEvent: {}
+[4.478171] (-) TimerEvent: {}
+[4.484580] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.496728] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/foxy/ros2_ws/build/tutorial_interfaces\n'}
+[4.577659] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__cpp\x1b[0m\n'}
+[4.578358] (-) TimerEvent: {}
+[4.583564] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.619519] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.678748] (-) TimerEvent: {}
+[4.783340] (-) TimerEvent: {}
+[4.884199] (-) TimerEvent: {}
+[4.999258] (-) TimerEvent: {}
+[5.120632] (-) TimerEvent: {}
+[5.223275] (-) TimerEvent: {}
+[5.323989] (-) TimerEvent: {}
+[5.425303] (-) TimerEvent: {}
+[5.526543] (-) TimerEvent: {}
+[5.628564] (-) TimerEvent: {}
+[5.729985] (-) TimerEvent: {}
+[5.830571] (-) TimerEvent: {}
+[5.936337] (-) TimerEvent: {}
+[6.127700] (-) TimerEvent: {}
+[6.229983] (-) TimerEvent: {}
+[6.306352] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target tutorial_interfaces__cpp\n'}
+[6.345067] (-) TimerEvent: {}
+[6.361755] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.446864] (-) TimerEvent: {}
+[6.563188] (-) TimerEvent: {}
+[6.676589] (-) TimerEvent: {}
+[6.691294] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.776870] (-) TimerEvent: {}
+[6.879458] (-) TimerEvent: {}
+[6.918783] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[6.996536] (-) TimerEvent: {}
+[7.100082] (-) TimerEvent: {}
+[7.260263] (-) TimerEvent: {}
+[7.361692] (-) TimerEvent: {}
+[7.462568] (-) TimerEvent: {}
+[7.566105] (-) TimerEvent: {}
+[7.686741] (-) TimerEvent: {}
+[7.810670] (-) TimerEvent: {}
+[7.913535] (-) TimerEvent: {}
+[8.054391] (-) TimerEvent: {}
+[8.256828] (-) TimerEvent: {}
+[8.357495] (-) TimerEvent: {}
+[8.459068] (-) TimerEvent: {}
+[8.460289] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.543087] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[8.559340] (-) TimerEvent: {}
+[8.660298] (-) TimerEvent: {}
+[8.718627] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[8.760624] (-) TimerEvent: {}
+[8.861348] (-) TimerEvent: {}
+[8.938412] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[9.065229] (-) TimerEvent: {}
+[9.188995] (-) TimerEvent: {}
+[9.268123] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.289310] (-) TimerEvent: {}
+[9.391561] (-) TimerEvent: {}
+[9.492461] (-) TimerEvent: {}
+[9.593132] (-) TimerEvent: {}
+[9.654086] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[9.685457] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.693388] (-) TimerEvent: {}
+[9.816588] (-) TimerEvent: {}
+[9.924921] (-) TimerEvent: {}
+[10.026003] (-) TimerEvent: {}
+[10.126597] (-) TimerEvent: {}
+[10.227975] (-) TimerEvent: {}
+[10.328829] (-) TimerEvent: {}
+[10.431336] (-) TimerEvent: {}
+[10.532171] (-) TimerEvent: {}
+[10.633237] (-) TimerEvent: {}
+[10.734497] (-) TimerEvent: {}
+[10.871834] (-) TimerEvent: {}
+[10.984504] (-) TimerEvent: {}
+[11.120608] (-) TimerEvent: {}
+[11.264709] (-) TimerEvent: {}
+[11.366860] (-) TimerEvent: {}
+[11.371123] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.470656] (-) TimerEvent: {}
+[11.472464] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[11.515612] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[11.571020] (-) TimerEvent: {}
+[11.672926] (-) TimerEvent: {}
+[11.788862] (-) TimerEvent: {}
+[11.915098] (-) TimerEvent: {}
+[12.022243] (-) TimerEvent: {}
+[12.122721] (-) TimerEvent: {}
+[12.223588] (-) TimerEvent: {}
+[12.324957] (-) TimerEvent: {}
+[12.429705] (-) TimerEvent: {}
+[12.530947] (-) TimerEvent: {}
+[12.632492] (-) TimerEvent: {}
+[12.733159] (-) TimerEvent: {}
+[12.852145] (-) TimerEvent: {}
+[12.995561] (-) TimerEvent: {}
+[13.105534] (-) TimerEvent: {}
+[13.209650] (-) TimerEvent: {}
+[13.310995] (-) TimerEvent: {}
+[13.412472] (-) TimerEvent: {}
+[13.513513] (-) TimerEvent: {}
+[13.614310] (-) TimerEvent: {}
+[13.641032] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[13.715314] (-) TimerEvent: {}
+[13.816254] (-) TimerEvent: {}
+[13.917840] (-) TimerEvent: {}
+[14.031200] (-) TimerEvent: {}
+[14.131831] (-) TimerEvent: {}
+[14.207416] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[14.232120] (-) TimerEvent: {}
+[14.337074] (-) TimerEvent: {}
+[14.438304] (-) TimerEvent: {}
+[14.466690] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.538619] (-) TimerEvent: {}
+[14.598136] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[14.625553] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.639320] (-) TimerEvent: {}
+[14.740877] (-) TimerEvent: {}
+[14.843068] (-) TimerEvent: {}
+[14.951130] (-) TimerEvent: {}
+[15.055237] (-) TimerEvent: {}
+[15.210380] (-) TimerEvent: {}
+[15.312032] (-) TimerEvent: {}
+[15.415100] (-) TimerEvent: {}
+[15.514493] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[15.516087] (-) TimerEvent: {}
+[15.618917] (-) TimerEvent: {}
+[15.650831] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.703996] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[15.722102] (-) TimerEvent: {}
+[15.796621] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[15.822527] (-) TimerEvent: {}
+[15.884121] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[15.923657] (-) TimerEvent: {}
+[16.024733] (-) TimerEvent: {}
+[16.106406] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.125391] (-) TimerEvent: {}
+[16.182431] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[16.210033] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.225920] (-) TimerEvent: {}
+[16.326995] (-) TimerEvent: {}
+[16.429586] (-) TimerEvent: {}
+[16.531053] (-) TimerEvent: {}
+[16.633631] (-) TimerEvent: {}
+[16.734458] (-) TimerEvent: {}
+[16.818350] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.834944] (-) TimerEvent: {}
+[16.936568] (-) TimerEvent: {}
+[16.955977] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[17.037459] (-) TimerEvent: {}
+[17.106946] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[17.137758] (-) TimerEvent: {}
+[17.210669] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[17.215614] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.238198] (-) TimerEvent: {}
+[17.298978] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[17.338691] (-) TimerEvent: {}
+[17.390237] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[17.439092] (-) TimerEvent: {}
+[17.465245] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.540769] (-) TimerEvent: {}
+[17.576936] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[17.604982] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.641151] (-) TimerEvent: {}
+[17.742204] (-) TimerEvent: {}
+[17.843429] (-) TimerEvent: {}
+[17.944575] (-) TimerEvent: {}
+[18.039864] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[18.044843] (-) TimerEvent: {}
+[18.116943] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[18.145072] (-) TimerEvent: {}
+[18.252472] (-) TimerEvent: {}
+[18.356204] (-) TimerEvent: {}
+[18.457791] (-) TimerEvent: {}
+[18.508709] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[18.558043] (-) TimerEvent: {}
+[18.571476] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[18.659145] (-) TimerEvent: {}
+[18.759693] (-) TimerEvent: {}
+[18.861740] (-) TimerEvent: {}
+[18.895097] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[18.962231] (-) TimerEvent: {}
+[19.087189] (-) TimerEvent: {}
+[19.187847] (-) TimerEvent: {}
+[19.289520] (-) TimerEvent: {}
+[19.390619] (-) TimerEvent: {}
+[19.492925] (-) TimerEvent: {}
+[19.593762] (-) TimerEvent: {}
+[19.638820] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[19.694070] (-) TimerEvent: {}
+[19.795211] (-) TimerEvent: {}
+[19.804644] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[19.896182] (-) TimerEvent: {}
+[19.997309] (-) TimerEvent: {}
+[20.100361] (-) TimerEvent: {}
+[20.204219] (-) TimerEvent: {}
+[20.305258] (-) TimerEvent: {}
+[20.406634] (-) TimerEvent: {}
+[20.507615] (-) TimerEvent: {}
+[20.608437] (-) TimerEvent: {}
+[20.706107] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[20.709808] (-) TimerEvent: {}
+[20.718279] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.810167] (-) TimerEvent: {}
+[20.896092] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[20.914823] (-) TimerEvent: {}
+[21.016242] (-) TimerEvent: {}
+[21.155368] (-) TimerEvent: {}
+[21.258328] (-) TimerEvent: {}
+[21.359737] (-) TimerEvent: {}
+[21.461514] (-) TimerEvent: {}
+[21.562966] (-) TimerEvent: {}
+[21.663834] (-) TimerEvent: {}
+[21.765558] (-) TimerEvent: {}
+[21.867185] (-) TimerEvent: {}
+[21.969722] (-) TimerEvent: {}
+[22.103073] (-) TimerEvent: {}
+[22.205555] (-) TimerEvent: {}
+[22.313230] (-) TimerEvent: {}
+[22.452841] (-) TimerEvent: {}
+[22.516727] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.557214] (-) TimerEvent: {}
+[22.658833] (-) TimerEvent: {}
+[22.775699] (-) TimerEvent: {}
+[22.883812] (-) TimerEvent: {}
+[23.000106] (-) TimerEvent: {}
+[23.129742] (-) TimerEvent: {}
+[23.267146] (-) TimerEvent: {}
+[23.410501] (-) TimerEvent: {}
+[23.417350] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[23.442289] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces\x1b[0m\n'}
+[23.504083] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[23.510881] (-) TimerEvent: {}
+[23.533416] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__py\x1b[0m\n'}
+[23.580112] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.611641] (-) TimerEvent: {}
+[23.713474] (-) TimerEvent: {}
+[23.814511] (-) TimerEvent: {}
+[23.916482] (-) TimerEvent: {}
+[24.062906] (-) TimerEvent: {}
+[24.163445] (-) TimerEvent: {}
+[24.264444] (-) TimerEvent: {}
+[24.365692] (-) TimerEvent: {}
+[24.467122] (-) TimerEvent: {}
+[24.568045] (-) TimerEvent: {}
+[24.668678] (-) TimerEvent: {}
+[24.769411] (-) TimerEvent: {}
+[24.870451] (-) TimerEvent: {}
+[24.971369] (-) TimerEvent: {}
+[25.072299] (-) TimerEvent: {}
+[25.173076] (-) TimerEvent: {}
+[25.280780] (-) TimerEvent: {}
+[25.411856] (-) TimerEvent: {}
+[25.534719] (-) TimerEvent: {}
+[25.635835] (-) TimerEvent: {}
+[25.736519] (-) TimerEvent: {}
+[25.837802] (-) TimerEvent: {}
+[25.945049] (-) TimerEvent: {}
+[25.965753] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[25.993216] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__python\x1b[0m\n'}
+[26.045861] (-) TimerEvent: {}
+[26.120369] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[26.123611] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[26.146052] (-) TimerEvent: {}
+[26.247118] (-) TimerEvent: {}
+[26.347846] (-) TimerEvent: {}
+[26.429041] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[26.448353] (-) TimerEvent: {}
+[26.549960] (-) TimerEvent: {}
+[26.651415] (-) TimerEvent: {}
+[26.654610] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so\x1b[0m\n'}
+[26.752672] (-) TimerEvent: {}
+[26.777017] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__python\n'}
+[26.802692] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[26.807710] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[26.852916] (-) TimerEvent: {}
+[26.855857] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.860165] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.972881] (-) TimerEvent: {}
+[27.073586] (-) TimerEvent: {}
+[27.175468] (-) TimerEvent: {}
+[27.177549] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.197168] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.276416] (-) TimerEvent: {}
+[27.295628] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[27.314603] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[27.322413] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[27.376791] (-) TimerEvent: {}
+[27.382026] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.477605] (-) TimerEvent: {}
+[27.578427] (-) TimerEvent: {}
+[27.618267] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.679280] (-) TimerEvent: {}
+[27.780110] (-) TimerEvent: {}
+[27.800756] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.834633] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[27.881000] (-) TimerEvent: {}
+[27.998081] (-) TimerEvent: {}
+[28.119015] (-) TimerEvent: {}
+[28.219699] (-) TimerEvent: {}
+[28.231421] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[28.257592] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/foxy/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/foxy/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1567'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/foxy/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:51581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1600,unix/ubuntu:/tmp/.ICE-unix/1600'), ('INVOCATION_ID', 'ab9c10f66dd54e6a91ec76e328efb99d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d6550339_fcef_4d1d_98c9_c45ebeb1dfeb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foxy/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[28.285921] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.287924] (tutorial_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.288774] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[28.310250] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[28.319935] (-) TimerEvent: {}
+[28.330471] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[28.359071] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[28.398361] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[28.421419] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[28.421709] (-) TimerEvent: {}
+[28.438629] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[28.474951] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[28.495099] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[28.517497] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.h\n'}
+[28.522123] (-) TimerEvent: {}
+[28.538365] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[28.560483] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[28.581089] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[28.619140] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[28.623228] (-) TimerEvent: {}
+[28.641099] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[28.665152] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[28.688507] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[28.712818] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[28.724156] (-) TimerEvent: {}
+[28.732868] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[28.757080] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[28.782924] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[28.805457] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.824624] (-) TimerEvent: {}
+[28.828826] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.850255] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[28.875785] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.895935] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[28.916862] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[28.925351] (-) TimerEvent: {}
+[28.943794] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[28.967310] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[28.990335] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[29.013908] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[29.025660] (-) TimerEvent: {}
+[29.036472] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[29.066772] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[29.090752] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[29.111649] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[29.126632] (-) TimerEvent: {}
+[29.133240] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[29.152573] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[29.177663] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.hpp\n'}
+[29.198354] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[29.220109] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[29.227569] (-) TimerEvent: {}
+[29.240603] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[29.260447] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[29.284666] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.305088] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.325788] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.327790] (-) TimerEvent: {}
+[29.348151] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[29.369393] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[29.393629] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py\n'}
+[29.415419] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[29.428634] (-) TimerEvent: {}
+[29.436222] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[29.457031] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[29.487310] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[29.508338] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[29.529097] (-) TimerEvent: {}
+[29.530903] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[29.550389] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[29.575227] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[29.597890] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[29.622818] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[29.629809] (-) TimerEvent: {}
+[29.645666] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[29.676193] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[29.702225] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[29.725066] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[29.730084] (-) TimerEvent: {}
+[29.746417] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[29.772951] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[29.796708] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[29.822487] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[29.823577] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[29.824123] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[29.824960] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[29.825928] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[29.826882] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[29.827824] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[29.828788] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[29.829788] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[29.830478] (-) TimerEvent: {}
+[29.831943] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[29.832560] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[29.855056] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[29.855931] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[29.881368] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.906323] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.953115] (-) TimerEvent: {}
+[30.038113] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.038421] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.117149] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.117885] (-) TimerEvent: {}
+[30.118177] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.118460] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[30.118597] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[30.118715] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[30.118830] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[30.118941] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[30.119053] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[30.119163] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.119397] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[30.119568] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[30.119684] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[30.119794] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.119905] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[30.120014] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/foxy/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[30.243697] (-) TimerEvent: {}
+[30.354250] (-) TimerEvent: {}
+[30.419822] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/foxy/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[30.420237] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[30.420703] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.423600] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.423779] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.423910] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[30.424029] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.424145] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[30.424559] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.424731] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.424853] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[30.431666] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.434531] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[30.454813] (-) TimerEvent: {}
+[30.565302] (-) TimerEvent: {}
+[30.666760] (-) TimerEvent: {}
+[30.768229] (-) TimerEvent: {}
+[30.869721] (-) TimerEvent: {}
+[30.881077] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[30.886674] (-) EventReactorShutdown: {}

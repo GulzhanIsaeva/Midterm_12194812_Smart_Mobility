@@ -1,0 +1,78 @@
+Start testing: Oct 13 08:42 PDT
+----------------------------------------------------------
+1/3 Testing: copyright
+1/3 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml"
+Directory: /home/foxy/ros2_ws/src/tutorial_interfaces
+"copyright" start time: Oct 13 08:42 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/tutorial_interfaces':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml
+No repository roots and files found
+No problems found, checked 0 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/copyright.xunit.xml'
+<end of output>
+Test time =   2.46 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Oct 13 08:42 PDT
+"copyright" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/3 Testing: lint_cmake
+2/3 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml"
+Directory: /home/foxy/ros2_ws/src/tutorial_interfaces
+"lint_cmake" start time: Oct 13 08:42 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/tutorial_interfaces':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Oct 13 08:42 PDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: xmllint
+3/3 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml"
+Directory: /home/foxy/ros2_ws/src/tutorial_interfaces
+"xmllint" start time: Oct 13 08:42 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/tutorial_interfaces':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml
+File 'package.xml' is invalid:
+/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml:20: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml fails to validate
+
+1 files are invalid
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/foxy/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml'
+<end of output>
+Test time =   6.66 sec
+----------------------------------------------------------
+Test Failed.
+"xmllint" end time: Oct 13 08:42 PDT
+"xmllint" time elapsed: 00:00:06
+----------------------------------------------------------
+
+End testing: Oct 13 08:42 PDT
+
+copyright =   2.46 sec*proc
+
+lint_cmake =   0.79 sec*proc
+
+linter =   9.91 sec*proc
+
+xmllint =   6.66 sec*proc
+

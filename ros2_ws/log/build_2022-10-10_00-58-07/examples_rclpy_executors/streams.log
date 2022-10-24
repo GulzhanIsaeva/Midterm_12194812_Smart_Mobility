@@ -1,0 +1,54 @@
+[3.746s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_executors --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_executors/build
+[4.888s] running develop
+[5.634s] Removing /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[5.712s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/foxy/ros2_ws/install/examples_rclpy_executors --uninstall --editable --build-directory /home/foxy/ros2_ws/build/examples_rclpy_executors/build
+[5.720s] Invoking command in '/home/foxy/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/foxy/ros2_ws/build/examples_rclpy_executors/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_executors --record /home/foxy/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[6.620s] running egg_info
+[6.621s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[6.621s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[6.621s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[6.621s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[6.621s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[6.960s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.965s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.966s] running build
+[6.966s] running build_py
+[6.967s] creating /home/foxy/ros2_ws/build/examples_rclpy_executors/build
+[6.968s] creating /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib
+[6.968s] creating /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.972s] copying examples_rclpy_executors/talker.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.974s] copying examples_rclpy_executors/__init__.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.975s] copying examples_rclpy_executors/listener.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.977s] copying examples_rclpy_executors/custom_callback_group.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.979s] copying examples_rclpy_executors/callback_group.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.981s] copying examples_rclpy_executors/custom_executor.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.983s] copying examples_rclpy_executors/composed.py -> /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.985s] running install
+[6.991s] running install_lib
+[6.997s] creating /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.000s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.001s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.002s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.002s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.004s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.005s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.007s] copying /home/foxy/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[7.009s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[7.015s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[7.020s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[7.026s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[7.032s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[7.036s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[7.037s] byte-compiling /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[7.038s] running install_data
+[7.042s] running install_egg_info
+[7.048s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[7.053s] running install_scripts
+[7.116s] Installing callback_group script to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[7.117s] Installing composed script to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[7.119s] Installing custom_callback_group script to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[7.120s] Installing custom_executor script to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[7.121s] Installing listener script to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[7.130s] Installing talker script to /home/foxy/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[7.132s] writing list of installed files to '/home/foxy/ros2_ws/build/examples_rclpy_executors/install.log'
+[7.207s] Invoked command in '/home/foxy/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/foxy/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/foxy/ros2_ws/build/examples_rclpy_executors/build install --prefix /home/foxy/ros2_ws/install/examples_rclpy_executors --record /home/foxy/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

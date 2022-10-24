@@ -1,0 +1,48 @@
+[0.247s] Invoking command in '/home/foxy/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/foxy/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[1.779s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.371s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.371s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.232s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.699s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.024s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[7.221s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.886s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.593s] -- Found tutorial_interfaces: 0.0.0 (/home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[10.327s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[11.292s] Error parsing '/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml':
+[12.056s] Traceback (most recent call last):
+[12.056s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[12.057s]     main()
+[12.057s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[12.057s]     raise e
+[12.057s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[12.057s]     package = parse_package_string(
+[12.057s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[12.057s]     pkg.validate(warnings=warnings)
+[12.058s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[12.058s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[12.058s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml':
+[12.058s] The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package
+[12.058s] The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package
+[12.058s] The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package
+[12.145s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[12.147s]   execute_process(/usr/bin/python3
+[12.185s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[12.185s]   /home/foxy/ros2_ws/src/tutorial_interfaces/package.xml
+[12.185s]   /home/foxy/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[12.186s]   returned error code 1
+[12.186s] Call Stack (most recent call first):
+[12.186s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[12.186s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[12.186s]   CMakeLists.txt:33 (rosidl_generate_interfaces)
+[12.186s] 
+[12.186s] 
+[12.270s] -- Configuring incomplete, errors occurred!
+[12.270s] See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[12.270s] See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeError.log".
+[12.277s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[12.413s] Invoked command in '/home/foxy/ros2_ws/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/foxy/ros2_ws/build/tutorial_interfaces -- -j2 -l2

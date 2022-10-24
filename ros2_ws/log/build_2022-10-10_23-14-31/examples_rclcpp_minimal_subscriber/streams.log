@@ -1,0 +1,27 @@
+[0.185s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[1.031s] [ 33%] Built target subscriber_not_composable
+[1.089s] [ 66%] Built target subscriber_member_function
+[1.460s] [100%] Built target subscriber_lambda
+[1.615s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[1.766s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.984s] -- Install configuration: ""
+[1.985s] -- Execute custom install script
+[2.026s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[2.026s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[2.027s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[2.027s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[2.027s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[2.072s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[2.072s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[2.082s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[2.095s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[2.113s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[2.155s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[2.163s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[2.164s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[2.164s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[2.211s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[2.216s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[2.245s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[2.252s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[2.260s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_subscriber

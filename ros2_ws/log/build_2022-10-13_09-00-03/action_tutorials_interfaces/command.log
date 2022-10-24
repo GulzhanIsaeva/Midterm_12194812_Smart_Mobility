@@ -1,0 +1,1 @@
+Invoking command in '/home/foxy/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/action_tutorials_interfaces -- -j2 -l2

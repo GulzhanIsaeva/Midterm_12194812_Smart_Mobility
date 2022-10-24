@@ -1,0 +1,64 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: /home/foxy/ros2_ws/build/py_srvcli/.pytest_cache
+rootdir: /home/foxy/ros2_ws/src/py_srvcli
+plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________________ test_copyright ________________________________[0m
+[1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[1m    assert rc == 0, 'Found errors'[0m
+[1m[31mE   AssertionError: Found errors[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stderr call -----------------------------
+py_srvcli/client_member_function.py: could not find copyright notice
+py_srvcli/service_member_function.py: could not find copyright notice
+2 errors, checked 6 files
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1m    assert rc == 0, \[0m
+[1m[31mE   AssertionError: Found 3 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:23:9: E122 continuation line missing indentation or outdented[0m
+[1m[31mE     ./setup.py:24:9: E122 continuation line missing indentation or outdented[0m
+[1m[31mE     ./setup.py:26:7: W291 trailing whitespace[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:23:9: E122 continuation line missing indentation or outdented
+        'service = py_srvcli.service_member_function:main',
+        ^
+
+./setup.py:24:9: E122 continuation line missing indentation or outdented
+        'client = py_srvcli.client_member_function:main',
+        ^
+
+./setup.py:26:7: W291 trailing whitespace
+    }, 
+      ^
+
+2     E122 continuation line missing indentation or outdented
+1     W291 trailing whitespace
+
+7 files checked
+3 errors
+
+'E'-type errors: 2
+'W'-type errors: 1
+
+Checked files:
+
+* ./setup.py
+* ./py_srvcli/service_member_function.py
+* ./py_srvcli/__init__.py
+* ./py_srvcli/client_member_function.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+* ./test/test_pep257.py
+------ generated xml file: /home/foxy/ros2_ws/build/py_srvcli/pytest.xml -------
+[31m[1m================ 2 failed, 1 passed, 1 warnings in 0.64 seconds ================[0m

@@ -1,0 +1,25 @@
+[0.103s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer -- -j2 -l2
+[0.748s] [ 50%] Built target timer_lambda
+[0.760s] [100%] Built target timer_member_function
+[0.940s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer -- -j2 -l2
+[1.337s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer
+[1.435s] -- Install configuration: ""
+[1.435s] -- Execute custom install script
+[1.450s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[1.466s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[1.467s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[1.467s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[1.467s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[1.484s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[1.484s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[1.484s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[1.485s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[1.485s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[1.485s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[1.485s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[1.485s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[1.603s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.653s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.654s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.654s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[1.662s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_timer

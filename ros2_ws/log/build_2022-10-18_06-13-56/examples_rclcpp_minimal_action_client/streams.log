@@ -1,0 +1,26 @@
+[0.080s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.165s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.265s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.925s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.959s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.038s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.958s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.090s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.548s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.700s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.912s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.916s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.916s] -- Configured cppcheck include dirs: 
+[2.917s] -- Configured cppcheck exclude dirs and/or files: 
+[2.918s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.918s] -- Configured cpplint exclude dirs and/or files: 
+[2.920s] -- Added test 'lint_cmake' to check CMake code style
+[2.922s] -- Added test 'uncrustify' to check C / C++ code style
+[2.923s] -- Configured uncrustify additional arguments: 
+[2.925s] -- Added test 'xmllint' to check XML markup files
+[2.936s] -- Configuring done
+[3.029s] -- Generating done
+[3.041s] -- Build files have been written to: /home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client

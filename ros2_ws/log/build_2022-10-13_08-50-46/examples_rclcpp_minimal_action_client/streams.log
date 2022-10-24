@@ -1,0 +1,32 @@
+[0.108s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.169s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.942s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.969s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.044s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.116s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.234s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.880s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.996s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.207s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.212s] -- Configured cppcheck include dirs: 
+[3.212s] -- Configured cppcheck exclude dirs and/or files: 
+[3.214s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.214s] -- Configured cpplint exclude dirs and/or files: 
+[3.216s] -- Added test 'lint_cmake' to check CMake code style
+[3.218s] -- Added test 'uncrustify' to check C / C++ code style
+[3.218s] -- Configured uncrustify additional arguments: 
+[3.220s] -- Added test 'xmllint' to check XML markup files
+[3.232s] -- Configuring done
+[3.331s] -- Generating done
+[3.353s] -- Build files have been written to: /home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client
+[3.378s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client
+[3.388s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j2 -l2
+[3.832s] [ 25%] Built target action_client_not_composable
+[3.895s] [ 50%] Built target action_client_not_composable_with_cancel
+[4.031s] [ 75%] Built target action_client_member_functions
+[4.223s] [100%] Built target action_client_not_composable_with_feedback

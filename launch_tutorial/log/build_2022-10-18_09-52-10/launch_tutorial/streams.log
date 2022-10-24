@@ -1,0 +1,35 @@
+[1.903s] Invoking command in '/home/foxy/launch_tutorial': PYTHONPATH=/home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/foxy/launch_tutorial/build/launch_tutorial/build install --prefix /home/foxy/launch_tutorial/install/launch_tutorial --record /home/foxy/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed
+[2.486s] running egg_info
+[2.488s] creating build/launch_tutorial/launch_tutorial.egg-info
+[2.489s] writing build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[2.490s] writing dependency_links to build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[2.491s] writing entry points to build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[2.492s] writing requirements to build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[2.492s] writing top-level names to build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[2.497s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.583s] reading manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.585s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.587s] running build
+[2.588s] running build_py
+[2.589s] creating /home/foxy/launch_tutorial/build/launch_tutorial/build
+[2.590s] creating /home/foxy/launch_tutorial/build/launch_tutorial/build/lib
+[2.590s] creating /home/foxy/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[2.591s] copying launch_tutorial/__init__.py -> /home/foxy/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[2.592s] running install
+[2.594s] running install_lib
+[2.597s] creating /home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial
+[2.599s] copying /home/foxy/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial
+[2.601s] byte-compiling /home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial/__init__.py to __init__.cpython-38.pyc
+[2.605s] running install_data
+[2.607s] creating /home/foxy/launch_tutorial/install/launch_tutorial/share/ament_index
+[2.607s] creating /home/foxy/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index
+[2.607s] creating /home/foxy/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[2.608s] copying resource/launch_tutorial -> /home/foxy/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[2.609s] copying package.xml -> /home/foxy/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[2.609s] copying launch/example_substitutions.launch.py -> /home/foxy/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[2.610s] copying launch/example_main.launch.py -> /home/foxy/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[2.611s] running install_egg_info
+[2.615s] Copying build/launch_tutorial/launch_tutorial.egg-info to /home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info
+[2.617s] running install_scripts
+[2.654s] writing list of installed files to '/home/foxy/launch_tutorial/build/launch_tutorial/install.log'
+[2.703s] Invoked command in '/home/foxy/launch_tutorial' returned '0': PYTHONPATH=/home/foxy/launch_tutorial/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/foxy/launch_tutorial/build/launch_tutorial/build install --prefix /home/foxy/launch_tutorial/install/launch_tutorial --record /home/foxy/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed

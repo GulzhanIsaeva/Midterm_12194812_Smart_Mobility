@@ -1,0 +1,27 @@
+[0.157s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[0.947s] [ 33%] Built target publisher_not_composable
+[1.340s] [ 66%] Built target publisher_member_function
+[1.473s] [100%] Built target publisher_lambda
+[1.630s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[1.840s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.063s] -- Install configuration: ""
+[2.063s] -- Execute custom install script
+[2.142s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[2.143s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[2.144s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[2.144s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[2.144s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[2.144s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[2.144s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[2.145s] -- Symlinking: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[2.155s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[2.155s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[2.156s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[2.156s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[2.233s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,20 @@
+[0.048s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.219s] [35m[1mScanning dependencies of target listener[0m
+[0.219s] [35m[1mScanning dependencies of target talker[0m
+[0.304s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.308s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.891s] [01m[K/home/foxy/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/num.hpp: No such file or directory
+[0.891s]     4 | #include [01;31m[K"tutorial_interfaces/msg/num.hpp"[m[K     // CHANGE
+[0.891s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.893s] compilation terminated.
+[0.897s] [01m[K/home/foxy/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/num.hpp: No such file or directory
+[0.897s]     5 | #include [01;31m[K"tutorial_interfaces/msg/num.hpp"[m[K     // CHANGE
+[0.897s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.898s] compilation terminated.
+[0.908s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.910s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.910s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[0.911s] make[1]: *** Waiting for unfinished jobs....
+[0.911s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[0.912s] make: *** [Makefile:141: all] Error 2
+[0.920s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foxy/ros2_ws/install/py_srvcli:/home/foxy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclpy_minimal_service:/home/foxy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/foxy/ros2_ws/install/examples_rclpy_minimal_client:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/foxy/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2

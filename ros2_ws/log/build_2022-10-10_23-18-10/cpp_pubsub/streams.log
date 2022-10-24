@@ -1,0 +1,26 @@
+[0.207s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.989s] [ 50%] Built target listener
+[1.192s] [100%] Built target talker
+[1.489s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/foxy/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[2.071s] Invoking command in '/home/foxy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/cpp_pubsub
+[2.158s] -- Install configuration: ""
+[2.158s] -- Execute custom install script
+[2.158s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.159s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.160s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.160s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.160s] -- Symlinking: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.189s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.189s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.189s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.189s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.190s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.190s] -- Up-to-date symlink: /home/foxy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.204s] Invoked command in '/home/foxy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/foxy/ros2_ws/build/cpp_pubsub

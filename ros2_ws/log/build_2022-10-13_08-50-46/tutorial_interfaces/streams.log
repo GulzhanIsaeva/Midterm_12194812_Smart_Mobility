@@ -1,0 +1,48 @@
+[0.098s] Invoking command in '/home/foxy/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/foxy/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[0.225s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.296s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.982s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.005s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.077s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.758s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.801s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.961s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.974s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.419s] -- Found tutorial_interfaces: 0.0.0 (/home/foxy/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.793s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.211s] Error parsing '/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml':
+[3.918s] Traceback (most recent call last):
+[3.919s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[3.919s]     main()
+[3.919s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[3.919s]     raise e
+[3.919s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[3.919s]     package = parse_package_string(
+[3.919s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[3.920s]     pkg.validate(warnings=warnings)
+[3.920s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[3.920s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[3.920s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/foxy/ros2_ws/src/tutorial_interfaces/package.xml':
+[3.920s] The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package
+[3.921s] The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package
+[3.921s] The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package
+[4.038s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[4.038s]   execute_process(/usr/bin/python3
+[4.038s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.038s]   /home/foxy/ros2_ws/src/tutorial_interfaces/package.xml
+[4.039s]   /home/foxy/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[4.039s]   returned error code 1
+[4.039s] Call Stack (most recent call first):
+[4.039s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.039s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[4.039s]   CMakeLists.txt:33 (rosidl_generate_interfaces)
+[4.039s] 
+[4.040s] 
+[4.052s] -- Configuring incomplete, errors occurred!
+[4.053s] See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[4.053s] See also "/home/foxy/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeError.log".
+[4.098s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[4.107s] Invoked command in '/home/foxy/ros2_ws/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/foxy/ros2_ws/build/tutorial_interfaces -- -j2 -l2

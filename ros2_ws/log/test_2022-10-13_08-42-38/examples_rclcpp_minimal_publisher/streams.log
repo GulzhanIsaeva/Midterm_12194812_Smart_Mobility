@@ -1,0 +1,114 @@
+[0.116s] Invoking command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.135s] UpdateCTestConfiguration  from :/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.135s] Parse Config file:/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.135s]    Site: ubuntu
+[0.136s]    Build name: (empty)
+[0.136s]  Add coverage exclude regular expressions.
+[0.136s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.136s] Create new tag: 20221013-1543 - Experimental
+[0.136s] UpdateCTestConfiguration  from :/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.136s] Parse Config file:/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.137s] Test project /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher
+[0.138s] Constructing a list of tests
+[0.139s] Done constructing a list of tests
+[0.139s] Updating test list for fixtures
+[0.140s] Added 0 tests to meet fixture requirements
+[0.141s] Checking test dependency graph...
+[0.142s] Checking test dependency graph end
+[0.142s] test 1
+[0.143s]     Start 1: copyright
+[0.143s] 
+[0.143s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml"
+[0.144s] 1: Test timeout computed to be: 60
+[0.433s] 1: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[0.433s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml
+[1.212s] 1: No problems found, checked 3 files
+[1.259s] 1: -- run_test.py: return code 0
+[1.260s] 1: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml'
+[1.287s] 1/6 Test #1: copyright ........................   Passed    1.14 sec
+[1.292s] test 2
+[1.292s]     Start 2: cppcheck
+[1.292s] 
+[1.292s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml"
+[1.292s] 2: Test timeout computed to be: 300
+[1.511s] 2: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[1.511s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml
+[2.322s] 2: No problems found
+[2.363s] 2: -- run_test.py: return code 0
+[2.363s] 2: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml'
+[2.392s] 2/6 Test #2: cppcheck .........................   Passed    1.10 sec
+[2.394s] test 3
+[2.394s]     Start 3: cpplint
+[2.394s] 
+[2.394s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml"
+[2.395s] 3: Test timeout computed to be: 120
+[2.584s] 3: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[2.585s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml
+[3.353s] 3: Using '--root=..' argument
+[3.354s] 3: 
+[3.354s] 3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp
+[3.354s] 3: 
+[3.355s] 3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp
+[3.355s] 3: 
+[3.355s] 3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp
+[3.358s] 3: 
+[3.359s] 3: No problems found
+[3.393s] 3: -- run_test.py: return code 0
+[3.393s] 3: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml'
+[3.417s] 3/6 Test #3: cpplint ..........................   Passed    1.02 sec
+[3.418s] test 4
+[3.419s]     Start 4: lint_cmake
+[3.420s] 
+[3.420s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml"
+[3.420s] 4: Test timeout computed to be: 60
+[3.584s] 4: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[3.584s] 4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml
+[4.362s] 4: 
+[4.362s] 4: No problems found
+[4.397s] 4: -- run_test.py: return code 0
+[4.398s] 4: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml'
+[4.424s] 4/6 Test #4: lint_cmake .......................   Passed    1.00 sec
+[4.424s] test 5
+[4.426s]     Start 5: uncrustify
+[4.426s] 
+[4.426s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml"
+[4.426s] 5: Test timeout computed to be: 60
+[4.593s] 5: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[4.594s] 5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml
+[5.600s] 5: No code style divergence in file 'lambda.cpp'
+[5.600s] 5: 
+[5.600s] 5: No code style divergence in file 'member_function.cpp'
+[5.600s] 5: 
+[5.600s] 5: No code style divergence in file 'not_composable.cpp'
+[5.601s] 5: 
+[5.601s] 5: No problems found
+[5.642s] 5: -- run_test.py: return code 0
+[5.642s] 5: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml'
+[5.663s] 5/6 Test #5: uncrustify .......................   Passed    1.24 sec
+[5.664s] test 6
+[5.665s]     Start 6: xmllint
+[5.665s] 
+[5.665s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml"
+[5.665s] 6: Test timeout computed to be: 60
+[7.448s] 6: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[7.448s] 6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml
+[9.982s] 6: File 'package.xml' is valid
+[9.983s] 6: 
+[9.983s] 6: No problems found
+[10.062s] 6: -- run_test.py: return code 0
+[10.062s] 6: -- run_test.py: verify result file '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml'
+[10.097s] 6/6 Test #6: xmllint ..........................   Passed    4.43 sec
+[10.097s] 
+[10.097s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[10.097s] 
+[10.098s] Label Time Summary:
+[10.098s] copyright     =   1.14 sec*proc (1 test)
+[10.098s] cppcheck      =   1.10 sec*proc (1 test)
+[10.098s] cpplint       =   1.02 sec*proc (1 test)
+[10.098s] lint_cmake    =   1.00 sec*proc (1 test)
+[10.098s] linter        =   9.94 sec*proc (6 tests)
+[10.098s] uncrustify    =   1.24 sec*proc (1 test)
+[10.098s] xmllint       =   4.43 sec*proc (1 test)
+[10.099s] 
+[10.099s] Total Test time (real) =   9.96 sec
+[10.107s] Invoked command in '/home/foxy/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/foxy/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/foxy/ros2_ws/install/cpp_pubsub:/home/foxy/ros2_ws/install/tutorial_interfaces:/home/foxy/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_timer:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_service:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_composition:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_client:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/foxy/ros2_ws/install/examples_rclcpp_minimal_action_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

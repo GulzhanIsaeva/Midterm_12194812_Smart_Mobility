@@ -1,0 +1,506 @@
+[0.000000] (-) TimerEvent: {}
+[0.001249] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict([('examples_rclcpp_minimal_action_client', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_action_client')])}
+[0.001489] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict([('examples_rclcpp_minimal_action_server', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_action_server')])}
+[0.001591] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict([('examples_rclcpp_minimal_client', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_client')])}
+[0.001723] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict([('examples_rclcpp_minimal_composition', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_composition')])}
+[0.001812] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict([('examples_rclcpp_minimal_publisher', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_publisher')])}
+[0.001893] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict([('examples_rclcpp_minimal_service', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_service')])}
+[0.001970] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict([('examples_rclcpp_minimal_subscriber', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_subscriber')])}
+[0.002047] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict([('examples_rclcpp_minimal_timer', '/home/foxy/ros2_ws/src/install/examples_rclcpp_minimal_timer')])}
+[0.002140] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict([('examples_rclcpp_multithreaded_executor', '/home/foxy/ros2_ws/src/install/examples_rclcpp_multithreaded_executor')])}
+[0.002226] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict([('examples_rclpy_executors', '/home/foxy/ros2_ws/src/install/examples_rclpy_executors')])}
+[0.002312] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict([('examples_rclpy_minimal_action_client', '/home/foxy/ros2_ws/src/install/examples_rclpy_minimal_action_client')])}
+[0.002397] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict([('examples_rclpy_minimal_action_server', '/home/foxy/ros2_ws/src/install/examples_rclpy_minimal_action_server')])}
+[0.002483] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict([('examples_rclpy_minimal_client', '/home/foxy/ros2_ws/src/install/examples_rclpy_minimal_client')])}
+[0.002567] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict([('examples_rclpy_minimal_publisher', '/home/foxy/ros2_ws/src/install/examples_rclpy_minimal_publisher')])}
+[0.002653] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict([('examples_rclpy_minimal_service', '/home/foxy/ros2_ws/src/install/examples_rclpy_minimal_service')])}
+[0.002753] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict([('examples_rclpy_minimal_subscriber', '/home/foxy/ros2_ws/src/install/examples_rclpy_minimal_subscriber')])}
+[0.002830] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict([('py_srvcli', '/home/foxy/ros2_ws/src/install/py_srvcli')])}
+[0.002923] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/foxy/ros2_ws/src/install/tutorial_interfaces')])}
+[0.003001] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/foxy/ros2_ws/src/install/tutorial_interfaces'), ('cpp_pubsub', '/home/foxy/ros2_ws/src/install/cpp_pubsub')])}
+[0.003093] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.023347] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[0.035381] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.049345] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.068756] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.071113] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 1}
+[0.075015] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.075355] (examples_rclcpp_minimal_client) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.077202] (examples_rclcpp_minimal_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_client', 'rc': 1}
+[0.079900] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.080692] (examples_rclcpp_minimal_composition) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.082267] (examples_rclcpp_minimal_composition) JobEnded: {'identifier': 'examples_rclcpp_minimal_composition', 'rc': 1}
+[0.084676] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.084914] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.085715] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 1}
+[0.100626] (-) TimerEvent: {}
+[0.100965] (examples_rclcpp_minimal_service) JobStarted: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.101166] (examples_rclcpp_minimal_service) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.101984] (examples_rclcpp_minimal_service) JobEnded: {'identifier': 'examples_rclcpp_minimal_service', 'rc': 1}
+[0.106965] (examples_rclcpp_minimal_subscriber) JobStarted: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.112273] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.113051] (examples_rclcpp_minimal_subscriber) JobEnded: {'identifier': 'examples_rclcpp_minimal_subscriber', 'rc': 1}
+[0.116938] (examples_rclcpp_minimal_timer) JobStarted: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.117667] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.118857] (examples_rclcpp_minimal_timer) JobEnded: {'identifier': 'examples_rclcpp_minimal_timer', 'rc': 1}
+[0.128066] (examples_rclcpp_multithreaded_executor) JobStarted: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.128169] (examples_rclcpp_multithreaded_executor) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.128866] (examples_rclcpp_multithreaded_executor) JobEnded: {'identifier': 'examples_rclcpp_multithreaded_executor', 'rc': 1}
+[0.130297] (examples_rclpy_executors) JobStarted: {'identifier': 'examples_rclpy_executors'}
+[0.180376] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foxy'), ('SSH_AGENT_PID', '1584'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/foxy'), ('OLDPWD', '/home/foxy/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'foxy'), ('JOURNAL_STREAM', '8:50766'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foxy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', 'e9778643303b469eb6f0742ecb3aaafb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.201857] (-) TimerEvent: {}
+[0.303439] (-) TimerEvent: {}
+[0.404214] (-) TimerEvent: {}
+[0.505169] (-) TimerEvent: {}
+[0.606074] (-) TimerEvent: {}
+[0.707399] (-) TimerEvent: {}
+[0.808647] (-) TimerEvent: {}
+[0.909441] (-) TimerEvent: {}
+[0.917878] (examples_rclpy_executors) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/executors', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_executors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_executors/.pytest_cache'}, 'shell': False}
+[0.956311] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini\n'}
+[0.956926] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Parse Config file:/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini\n'}
+[0.957093] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'   Site: ubuntu\n'}
+[0.957215] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.957331] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.957443] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.957711] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Create new tag: 20221013-1552 - Experimental\n'}
+[0.957847] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini\n'}
+[0.957962] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Parse Config file:/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini\n'}
+[0.958073] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Test project /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client\n'}
+[0.958184] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.958293] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.958400] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.958535] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.958692] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.958801] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.958995] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'test 1\n'}
+[0.959111] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.959220] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[0.959330] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml"\n'}
+[0.959469] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.959695] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':\n"}
+[0.959818] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml\n'}
+[1.010294] (-) TimerEvent: {}
+[1.035680] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'1: No problems found, checked 4 files\n'}
+[1.082399] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[1.083337] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml'\n"}
+[1.098139] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'1/6 Test #1: copyright ........................   Passed    0.83 sec\n'}
+[1.101715] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'test 2\n'}
+[1.102033] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[1.102201] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[1.102327] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml"\n'}
+[1.102555] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[1.110536] (-) TimerEvent: {}
+[1.211776] (-) TimerEvent: {}
+[1.290513] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':\n"}
+[1.325062] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml\n'}
+[1.325676] (-) TimerEvent: {}
+[1.427110] (-) TimerEvent: {}
+[1.528318] (-) TimerEvent: {}
+[1.629285] (-) TimerEvent: {}
+[1.730656] (-) TimerEvent: {}
+[1.831426] (-) TimerEvent: {}
+[1.917613] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'2: No problems found\n'}
+[1.931895] (-) TimerEvent: {}
+[1.956137] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.956434] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml'\n"}
+[1.987792] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.89 sec\n'}
+[1.988110] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'test 3\n'}
+[1.988263] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[1.988500] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[1.988659] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml"\n'}
+[1.988829] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[2.033060] (-) TimerEvent: {}
+[2.133596] (-) TimerEvent: {}
+[2.141312] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':\n"}
+[2.153263] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml\n'}
+[2.234093] (-) TimerEvent: {}
+[2.335717] (-) TimerEvent: {}
+[2.409102] (examples_rclpy_executors) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[2.410631] (examples_rclpy_executors) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[2.426084] (examples_rclpy_executors) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_executors/.pytest_cache\n'}
+[2.426631] (examples_rclpy_executors) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[2.427137] (examples_rclpy_executors) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[2.436084] (-) TimerEvent: {}
+[2.537060] (-) TimerEvent: {}
+[2.613284] (examples_rclpy_executors) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[2.613698] (examples_rclpy_executors) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[2.616274] (examples_rclpy_executors) StdoutLine: {'line': b'\n'}
+[2.637308] (-) TimerEvent: {}
+[2.724723] (examples_rclpy_executors) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[2.737457] (-) TimerEvent: {}
+[2.840080] (-) TimerEvent: {}
+[2.941430] (-) TimerEvent: {}
+[3.041947] (-) TimerEvent: {}
+[3.142589] (-) TimerEvent: {}
+[3.236118] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"3: Using '--root=..' argument\n"}
+[3.236443] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: \n'}
+[3.236589] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/member_functions.cpp\n'}
+[3.236719] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: \n'}
+[3.236950] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable.cpp\n'}
+[3.237091] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: \n'}
+[3.237209] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_cancel.cpp\n'}
+[3.237328] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: \n'}
+[3.237443] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: Done processing /home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_feedback.cpp\n'}
+[3.237556] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: \n'}
+[3.237665] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: No problems found\n'}
+[3.243154] (-) TimerEvent: {}
+[3.302358] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[3.302696] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml'\n"}
+[3.339885] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................   Passed    1.35 sec\n'}
+[3.340919] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'test 4\n'}
+[3.344489] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[3.344899] (-) TimerEvent: {}
+[3.347699] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[3.347961] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/lint_cmake.xunit.xml"\n'}
+[3.348170] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[3.464615] (-) TimerEvent: {}
+[3.500904] (examples_rclpy_executors) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[3.564850] (-) TimerEvent: {}
+[3.586259] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':\n"}
+[3.589461] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/lint_cmake.xunit.xml\n'}
+[3.617481] (examples_rclpy_executors) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[3.618901] (examples_rclpy_executors) StderrLine: {'line': b'\n'}
+[3.629430] (examples_rclpy_executors) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[3.634464] (examples_rclpy_executors) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_executors/pytest.xml -\n'}
+[3.634844] (examples_rclpy_executors) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 1.22 seconds =====================\x1b[0m\n'}
+[3.635004] (examples_rclpy_executors) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[3.635131] (examples_rclpy_executors) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[3.635346] (examples_rclpy_executors) StderrLine: {'line': b'\n'}
+[3.635469] (examples_rclpy_executors) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[3.679118] (-) TimerEvent: {}
+[3.779568] (-) TimerEvent: {}
+[3.882034] (-) TimerEvent: {}
+[4.003906] (examples_rclpy_executors) CommandEnded: {'returncode': 0}
+[4.008310] (-) TimerEvent: {}
+[4.008720] (examples_rclpy_executors) JobEnded: {'identifier': 'examples_rclpy_executors', 'rc': 0}
+[4.010027] (examples_rclpy_minimal_action_client) JobStarted: {'identifier': 'examples_rclpy_minimal_action_client'}
+[4.111037] (-) TimerEvent: {}
+[4.212310] (-) TimerEvent: {}
+[4.313415] (-) TimerEvent: {}
+[4.414170] (-) TimerEvent: {}
+[4.517370] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4: \n'}
+[4.517900] (-) TimerEvent: {}
+[4.518283] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4: No problems found\n'}
+[4.550736] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[4.551121] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/lint_cmake.xunit.xml'\n"}
+[4.602529] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    1.24 sec\n'}
+[4.602842] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'test 5\n'}
+[4.602981] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[4.603102] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[4.603322] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/uncrustify.xunit.xml"\n'}
+[4.603457] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[4.618791] (-) TimerEvent: {}
+[4.724294] (-) TimerEvent: {}
+[4.826481] (-) TimerEvent: {}
+[4.858380] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':\n"}
+[4.868813] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/uncrustify.xunit.xml\n'}
+[4.931043] (-) TimerEvent: {}
+[4.933513] (examples_rclpy_minimal_action_client) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/actions/minimal_action_client', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_client/.pytest_cache'}, 'shell': False}
+[5.031445] (-) TimerEvent: {}
+[5.133840] (-) TimerEvent: {}
+[5.235168] (-) TimerEvent: {}
+[5.336432] (-) TimerEvent: {}
+[5.440409] (-) TimerEvent: {}
+[5.458053] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"5: No code style divergence in file 'member_functions.cpp'\n"}
+[5.475427] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: \n'}
+[5.475951] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"5: No code style divergence in file 'not_composable.cpp'\n"}
+[5.476204] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: \n'}
+[5.476335] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"5: No code style divergence in file 'not_composable_with_cancel.cpp'\n"}
+[5.476466] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: \n'}
+[5.476578] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"5: No code style divergence in file 'not_composable_with_feedback.cpp'\n"}
+[5.476690] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: \n'}
+[5.476892] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: No problems found\n'}
+[5.524801] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[5.525126] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/uncrustify.xunit.xml'\n"}
+[5.541822] (-) TimerEvent: {}
+[5.549902] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................   Passed    0.95 sec\n'}
+[5.550214] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'test 6\n'}
+[5.550361] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[5.550597] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[5.550768] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/xmllint.xunit.xml"\n'}
+[5.550912] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[5.642603] (-) TimerEvent: {}
+[5.756458] (-) TimerEvent: {}
+[5.858185] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/foxy/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':\n"}
+[5.858560] (-) TimerEvent: {}
+[5.868995] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/xmllint.xunit.xml\n'}
+[5.958944] (-) TimerEvent: {}
+[6.060162] (-) TimerEvent: {}
+[6.161266] (-) TimerEvent: {}
+[6.262353] (-) TimerEvent: {}
+[6.364661] (-) TimerEvent: {}
+[6.459494] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[6.463486] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[6.465497] (-) TimerEvent: {}
+[6.487539] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_client/.pytest_cache\n'}
+[6.487992] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[6.488216] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[6.566698] (-) TimerEvent: {}
+[6.685531] (-) TimerEvent: {}
+[6.716837] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[6.717170] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[6.717304] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'\n'}
+[6.751127] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[6.788930] (-) TimerEvent: {}
+[6.890674] (-) TimerEvent: {}
+[6.900499] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[6.902320] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6: \n'}
+[6.902728] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6: No problems found\n'}
+[6.991483] (-) TimerEvent: {}
+[7.002518] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[7.002865] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/foxy/ros2_ws/src/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/xmllint.xunit.xml'\n"}
+[7.074030] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    1.52 sec\n'}
+[7.074307] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[7.074472] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 6\n'}
+[7.074593] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[7.074702] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Label Time Summary:\n'}
+[7.074917] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'copyright     =   0.83 sec*proc (1 test)\n'}
+[7.075039] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'cppcheck      =   0.89 sec*proc (1 test)\n'}
+[7.075149] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'cpplint       =   1.35 sec*proc (1 test)\n'}
+[7.075256] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'lint_cmake    =   1.24 sec*proc (1 test)\n'}
+[7.075364] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'linter        =   6.78 sec*proc (6 tests)\n'}
+[7.075473] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'uncrustify    =   0.95 sec*proc (1 test)\n'}
+[7.075579] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'xmllint       =   1.52 sec*proc (1 test)\n'}
+[7.075686] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\n'}
+[7.075860] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Total Test time (real) =   6.82 sec\n'}
+[7.092622] (-) TimerEvent: {}
+[7.095736] (examples_rclcpp_minimal_action_client) CommandEnded: {'returncode': 0}
+[7.096659] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 0}
+[7.098675] (examples_rclpy_minimal_action_server) JobStarted: {'identifier': 'examples_rclpy_minimal_action_server'}
+[7.194017] (-) TimerEvent: {}
+[7.296927] (-) TimerEvent: {}
+[7.360055] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[7.398446] (-) TimerEvent: {}
+[7.443319] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[7.445138] (examples_rclpy_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.447800] (examples_rclpy_minimal_action_client) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[7.448130] (examples_rclpy_minimal_action_client) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[7.448497] (examples_rclpy_minimal_action_client) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[7.448675] (examples_rclpy_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.448801] (examples_rclpy_minimal_action_client) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[7.449532] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_client/pytest.xml -\n'}
+[7.449678] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 0.99 seconds =====================\x1b[0m\n'}
+[7.502360] (-) TimerEvent: {}
+[7.609549] (-) TimerEvent: {}
+[7.710799] (-) TimerEvent: {}
+[7.812060] (-) TimerEvent: {}
+[7.913249] (-) TimerEvent: {}
+[7.943456] (examples_rclpy_minimal_action_server) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/actions/minimal_action_server', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_server/pytest.xml --junit-prefix=examples_rclpy_minimal_action_server -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_server/.pytest_cache'}, 'shell': False}
+[7.969148] (examples_rclpy_minimal_action_client) CommandEnded: {'returncode': 0}
+[7.972382] (examples_rclpy_minimal_action_client) JobEnded: {'identifier': 'examples_rclpy_minimal_action_client', 'rc': 0}
+[7.985897] (examples_rclpy_minimal_client) JobStarted: {'identifier': 'examples_rclpy_minimal_client'}
+[8.018423] (-) TimerEvent: {}
+[8.120994] (-) TimerEvent: {}
+[8.229822] (-) TimerEvent: {}
+[8.331309] (-) TimerEvent: {}
+[8.432353] (-) TimerEvent: {}
+[8.534367] (-) TimerEvent: {}
+[8.635540] (-) TimerEvent: {}
+[8.736593] (-) TimerEvent: {}
+[8.874567] (-) TimerEvent: {}
+[8.974018] (examples_rclpy_minimal_client) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/services/minimal_client', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_client/.pytest_cache'}, 'shell': False}
+[8.975311] (-) TimerEvent: {}
+[9.076107] (-) TimerEvent: {}
+[9.177723] (-) TimerEvent: {}
+[9.278761] (-) TimerEvent: {}
+[9.380763] (-) TimerEvent: {}
+[9.482633] (-) TimerEvent: {}
+[9.584285] (-) TimerEvent: {}
+[9.689596] (-) TimerEvent: {}
+[9.768910] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[9.782435] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[9.788706] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_server/.pytest_cache\n'}
+[9.789628] (-) TimerEvent: {}
+[9.790852] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[9.791888] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[9.889903] (-) TimerEvent: {}
+[10.005860] (-) TimerEvent: {}
+[10.031755] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[10.052740] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[10.054151] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'\n'}
+[10.106574] (-) TimerEvent: {}
+[10.114396] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[10.206950] (-) TimerEvent: {}
+[10.309045] (-) TimerEvent: {}
+[10.410488] (-) TimerEvent: {}
+[10.511850] (-) TimerEvent: {}
+[10.620730] (-) TimerEvent: {}
+[10.721877] (-) TimerEvent: {}
+[10.811408] (examples_rclpy_minimal_client) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[10.812270] (examples_rclpy_minimal_client) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[10.822117] (-) TimerEvent: {}
+[10.826661] (examples_rclpy_minimal_client) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_client/.pytest_cache\n'}
+[10.826931] (examples_rclpy_minimal_client) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[10.827439] (examples_rclpy_minimal_client) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[10.852214] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[10.922279] (-) TimerEvent: {}
+[10.978768] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[10.979667] (examples_rclpy_minimal_action_server) StderrLine: {'line': b'\n'}
+[10.980829] (examples_rclpy_minimal_action_server) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[10.981323] (examples_rclpy_minimal_action_server) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[10.981822] (examples_rclpy_minimal_action_server) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[10.983487] (examples_rclpy_minimal_action_server) StderrLine: {'line': b'\n'}
+[10.983693] (examples_rclpy_minimal_action_server) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[10.983835] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_action_server/pytest.xml -\n'}
+[10.983981] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 1.21 seconds =====================\x1b[0m\n'}
+[11.023076] (-) TimerEvent: {}
+[11.048330] (examples_rclpy_minimal_client) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[11.050142] (examples_rclpy_minimal_client) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[11.053833] (examples_rclpy_minimal_client) StdoutLine: {'line': b'\n'}
+[11.123353] (-) TimerEvent: {}
+[11.141660] (examples_rclpy_minimal_action_server) CommandEnded: {'returncode': 0}
+[11.143431] (examples_rclpy_minimal_action_server) JobEnded: {'identifier': 'examples_rclpy_minimal_action_server', 'rc': 0}
+[11.145917] (examples_rclpy_minimal_publisher) JobStarted: {'identifier': 'examples_rclpy_minimal_publisher'}
+[11.150696] (examples_rclpy_minimal_client) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[11.224448] (-) TimerEvent: {}
+[11.326835] (-) TimerEvent: {}
+[11.428177] (-) TimerEvent: {}
+[11.520435] (examples_rclpy_minimal_client) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[11.528648] (-) TimerEvent: {}
+[11.601120] (examples_rclpy_minimal_client) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[11.602028] (examples_rclpy_minimal_client) StderrLine: {'line': b'\n'}
+[11.602726] (examples_rclpy_minimal_client) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[11.603302] (examples_rclpy_minimal_client) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[11.604085] (examples_rclpy_minimal_client) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[11.604339] (examples_rclpy_minimal_client) StderrLine: {'line': b'\n'}
+[11.604471] (examples_rclpy_minimal_client) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[11.605068] (examples_rclpy_minimal_client) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_client/pytest.xml -\n'}
+[11.606781] (examples_rclpy_minimal_client) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 0.80 seconds =====================\x1b[0m\n'}
+[11.629681] (-) TimerEvent: {}
+[11.732232] (-) TimerEvent: {}
+[11.834027] (-) TimerEvent: {}
+[11.922721] (examples_rclpy_minimal_publisher) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/topics/minimal_publisher', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_publisher/.pytest_cache'}, 'shell': False}
+[11.932496] (examples_rclpy_minimal_client) CommandEnded: {'returncode': 0}
+[11.933242] (examples_rclpy_minimal_client) JobEnded: {'identifier': 'examples_rclpy_minimal_client', 'rc': 0}
+[11.934680] (-) TimerEvent: {}
+[11.935681] (examples_rclpy_minimal_service) JobStarted: {'identifier': 'examples_rclpy_minimal_service'}
+[12.035037] (-) TimerEvent: {}
+[12.136366] (-) TimerEvent: {}
+[12.238422] (-) TimerEvent: {}
+[12.339102] (-) TimerEvent: {}
+[12.440135] (-) TimerEvent: {}
+[12.542588] (-) TimerEvent: {}
+[12.644759] (-) TimerEvent: {}
+[12.749343] (-) TimerEvent: {}
+[12.852552] (-) TimerEvent: {}
+[12.933916] (examples_rclpy_minimal_service) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/services/minimal_service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_service', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_service/.pytest_cache'}, 'shell': False}
+[12.952832] (-) TimerEvent: {}
+[13.054665] (-) TimerEvent: {}
+[13.156226] (-) TimerEvent: {}
+[13.259903] (-) TimerEvent: {}
+[13.361276] (-) TimerEvent: {}
+[13.463286] (-) TimerEvent: {}
+[13.564883] (-) TimerEvent: {}
+[13.669392] (-) TimerEvent: {}
+[13.769993] (-) TimerEvent: {}
+[13.927680] (-) TimerEvent: {}
+[13.946461] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[13.947150] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[13.977410] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_publisher/.pytest_cache\n'}
+[13.977834] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[13.978010] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[14.028633] (-) TimerEvent: {}
+[14.129701] (-) TimerEvent: {}
+[14.135780] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[14.136059] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[14.137744] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'\n'}
+[14.204508] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[14.230712] (-) TimerEvent: {}
+[14.334034] (-) TimerEvent: {}
+[14.435755] (-) TimerEvent: {}
+[14.525416] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[14.536223] (-) TimerEvent: {}
+[14.592188] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[14.592689] (examples_rclpy_minimal_publisher) StderrLine: {'line': b'\n'}
+[14.593543] (examples_rclpy_minimal_publisher) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[14.593975] (examples_rclpy_minimal_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[14.594231] (examples_rclpy_minimal_publisher) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[14.594363] (examples_rclpy_minimal_publisher) StderrLine: {'line': b'\n'}
+[14.594479] (examples_rclpy_minimal_publisher) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[14.594679] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_publisher/pytest.xml -\n'}
+[14.594929] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 0.65 seconds =====================\x1b[0m\n'}
+[14.636841] (-) TimerEvent: {}
+[14.738263] (-) TimerEvent: {}
+[14.797864] (examples_rclpy_minimal_service) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[14.798216] (examples_rclpy_minimal_service) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[14.814443] (examples_rclpy_minimal_publisher) CommandEnded: {'returncode': 0}
+[14.816711] (examples_rclpy_minimal_publisher) JobEnded: {'identifier': 'examples_rclpy_minimal_publisher', 'rc': 0}
+[14.817662] (examples_rclpy_minimal_subscriber) JobStarted: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[14.861138] (examples_rclpy_minimal_service) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_service/.pytest_cache\n'}
+[14.862261] (-) TimerEvent: {}
+[14.863931] (examples_rclpy_minimal_service) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[14.864233] (examples_rclpy_minimal_service) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[14.963504] (-) TimerEvent: {}
+[15.067128] (-) TimerEvent: {}
+[15.122721] (examples_rclpy_minimal_service) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[15.123258] (examples_rclpy_minimal_service) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[15.125754] (examples_rclpy_minimal_service) StdoutLine: {'line': b'\n'}
+[15.170452] (-) TimerEvent: {}
+[15.194435] (examples_rclpy_minimal_service) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[15.270715] (-) TimerEvent: {}
+[15.372220] (-) TimerEvent: {}
+[15.473492] (-) TimerEvent: {}
+[15.576823] (-) TimerEvent: {}
+[15.597362] (examples_rclpy_minimal_service) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[15.687060] (-) TimerEvent: {}
+[15.727763] (examples_rclpy_minimal_service) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[15.728093] (examples_rclpy_minimal_service) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_service/pytest.xml -\n'}
+[15.728233] (examples_rclpy_minimal_service) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 0.94 seconds =====================\x1b[0m\n'}
+[15.728357] (examples_rclpy_minimal_service) StderrLine: {'line': b'\n'}
+[15.728614] (examples_rclpy_minimal_service) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[15.728739] (examples_rclpy_minimal_service) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[15.728849] (examples_rclpy_minimal_service) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[15.728958] (examples_rclpy_minimal_service) StderrLine: {'line': b'\n'}
+[15.729066] (examples_rclpy_minimal_service) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[15.734450] (examples_rclpy_minimal_subscriber) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/foxy/ros2_ws/src/examples/rclpy/topics/minimal_subscriber', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foxy', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/foxy', 'OLDPWD': '/home/foxy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'foxy', 'JOURNAL_STREAM': '8:50766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'foxy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/foxy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617', 'INVOCATION_ID': 'e9778643303b469eb6f0742ecb3aaafb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26136c2a_a87f_4f9b_8db4_65c42b9d203c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/foxy/ros2_ws/src/build/examples_rclpy_minimal_subscriber/.pytest_cache'}, 'shell': False}
+[15.797677] (-) TimerEvent: {}
+[15.898874] (-) TimerEvent: {}
+[15.913494] (examples_rclpy_minimal_service) CommandEnded: {'returncode': 0}
+[15.914793] (examples_rclpy_minimal_service) JobEnded: {'identifier': 'examples_rclpy_minimal_service', 'rc': 0}
+[15.922466] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[15.931126] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 1}
+[15.935007] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[15.936605] (cpp_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[15.937469] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[15.999256] (-) TimerEvent: {}
+[16.100510] (-) TimerEvent: {}
+[16.201370] (-) TimerEvent: {}
+[16.302288] (-) TimerEvent: {}
+[16.403214] (-) TimerEvent: {}
+[16.503749] (-) TimerEvent: {}
+[16.604955] (-) TimerEvent: {}
+[16.728844] (-) TimerEvent: {}
+[16.845835] (-) TimerEvent: {}
+[16.946839] (-) TimerEvent: {}
+[17.047686] (-) TimerEvent: {}
+[17.124975] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[17.125419] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[17.136973] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'cachedir: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_subscriber/.pytest_cache\n'}
+[17.137271] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'rootdir: /home/foxy/ros2_ws/src/examples/rclpy, inifile: pytest.ini\n'}
+[17.137515] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.9, ament-pep257-0.9.7, colcon-core-0.10.0, cov-2.8.1\n'}
+[17.147941] (-) TimerEvent: {}
+[17.249155] (-) TimerEvent: {}
+[17.275372] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[17.275659] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[17.277391] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'\n'}
+[17.330578] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'test/test_copyright.py \x1b[32m.\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[17.349333] (-) TimerEvent: {}
+[17.449896] (-) TimerEvent: {}
+[17.551116] (-) TimerEvent: {}
+[17.575850] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[17.634221] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[17.634886] (examples_rclpy_minimal_subscriber) StderrLine: {'line': b'\n'}
+[17.646558] (examples_rclpy_minimal_subscriber) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[17.647513] (examples_rclpy_minimal_subscriber) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[17.650595] (examples_rclpy_minimal_subscriber) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[17.651106] (-) TimerEvent: {}
+[17.651674] (examples_rclpy_minimal_subscriber) StderrLine: {'line': b'\n'}
+[17.652002] (examples_rclpy_minimal_subscriber) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[17.706901] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'- generated xml file: /home/foxy/ros2_ws/src/build/examples_rclpy_minimal_subscriber/pytest.xml -\n'}
+[17.707489] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'\x1b[33m\x1b[1m===================== 3 passed, 1 warnings in 0.54 seconds =====================\x1b[0m\n'}
+[17.787970] (-) TimerEvent: {}
+[17.821627] (examples_rclpy_minimal_subscriber) CommandEnded: {'returncode': 0}
+[17.822758] (examples_rclpy_minimal_subscriber) JobEnded: {'identifier': 'examples_rclpy_minimal_subscriber', 'rc': 0}
+[17.911184] (-) TimerEvent: {}
+[17.916242] (-) EventReactorShutdown: {}
