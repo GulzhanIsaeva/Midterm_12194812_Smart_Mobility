@@ -1,20 +1,3 @@
-## University Honor Code
-
-By signing this pledge, I promise to adhere to exam requirements and
-
-maintain the highest level of ethical principles during the exam period.
-
-
-
-## Midterm Assignment
-
-```
-1. Student Name: Gulzhan Isaeva
-
-2. Student ID: 12194812
-
-3. Course: Smart Mobility Engineering Lab
-```
 
 
 ## What is ROS (foxy)?
